@@ -22,10 +22,10 @@ vaccination strategies including MCV1, MCV2, and SIA in Pakistan and India.
 #### Load relevant packages
 ```{r load_pkg, message=FALSE}
 devtools::load_all()
-#library(dynamice)
-#library(data.table)
-#library(foreach)
-#library(ggplot2)
+# library(dynamice)
+# library(data.table)
+# library(foreach)
+# library(ggplot2)
 ```
   
 ***
@@ -52,6 +52,7 @@ Three types of assumptions are included for evaluation:
 2. Age trend for vaccine efficacy (step, linear functions)
 3. Proportion of SIA in zero-dose children (random, logistic function)
 Some assumptions are modified in fortran and others in R. 
+
 ```{r setup_scn}
 fortran_names <- c("vaccine2019_sia_adjBeta_mcv2_rSIAdpd.exe",          # most updated version
                    "vaccine2019_sia_adjBeta_mcv2_nodpdSIA.exe",
@@ -136,10 +137,10 @@ var <- list (
 
   # countries - specify iso3 codes to analyse only these countries
   #             or set it to "all" to analyse all included countries
-  countries                         = c("PAK","IND"),
+    countries                         = c("IND", "PAK"),
 
   cluster_cores                     = 1,    # number of cores 
-  psa                               = 5     # psa runs; 0 for single central run
+  psa                               = 0     # psa runs; 0 for single central run, was previously 5
 )
 
 # for central run: set number of runs to 0 (var$psa = 0)
@@ -242,7 +243,7 @@ under the previously specified route.
   
 ```{r get_results}
 # selected scenario
-index <- 4
+index <- 1
 scenario_name  <- vaccine_strategies [index]
 print (scenario_name)
 scenario_number <- sprintf ("scenario%02d", index)
@@ -265,10 +266,14 @@ burden_estimate_file <- runScenario (
   using_sia                  = set_sia         [index],
   measles_model              = main$fortran_model [imain], 
   debug_model                = FALSE,
-  contact_mat                = main$contact_mat [imain],
-  step_ve                    = main$step_ve     [imain],
-  sim_years                  = 1980:2100
+  contact_mat                = "polymod", #main$contact_mat [imain],
+  step_ve                    = T, #main$step_ve     [imain],
+  sim_years                  = 2000:2050
   )
+
+```
+  
+```{r cfr-est}
 
 # estimate deaths and DALYs by Wolfson and Portnoy's methods
 estimate_deaths_dalys (cfr_option             = "Wolfson",

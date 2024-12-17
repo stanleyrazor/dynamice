@@ -64,7 +64,8 @@ diagnostic_plots <- function (vaccine_coverage_folder,
                               psa,
                               start_year    = -1,
                               end_year      = -1,
-                              compare_plots = FALSE) {
+                              compare_plots = FALSE,
+                              plotname) {
 
   # burden estimate type -- central or stochastic
   if (psa > 0) {

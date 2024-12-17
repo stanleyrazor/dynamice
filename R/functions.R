@@ -191,14 +191,15 @@ runCountry <- function (
   remove_files = F # added by Han
 ) {
 
+
   # temporarily assign 3-letter-ISO code to Kosovo until Kosovo is assigned official ISO3-code
-  if (iso3 == "XK"){
+  {if (iso3 == "XK"){
     fortran_country_code <- "XKX"
   } else {
     fortran_country_code <- iso3
-  }
+  }}
 
-  if (psa > 0) {
+  {if (psa > 0) {
     p <- r
     if(p<10){
       p <- paste0("00",p)
@@ -208,11 +209,11 @@ runCountry <- function (
     psadir <- paste0("run",p,"/")
   } else {
     psadir <- ""
-  }
+  }}
 
   if (run_model) {
 
-    if ((using_sia == 1) & (nrow (c_coverage_sia) > 0)) {
+    {if ((using_sia == 1) & (nrow (c_coverage_sia) > 0)) {
 
       sia_a0       <- c_coverage_sia [, a0]
       sia_year     <- c_coverage_sia [, year]
@@ -227,7 +228,7 @@ runCountry <- function (
         sia_a1 			 <- 0
         sia_coverage <- 0
         sia_year 		 <- years[1]
-      }
+      }}
 
     # t_cov is x year of model (model is ran for t_cov timesteps)
     t_cov <- length(years) * tstep
@@ -246,20 +247,20 @@ runCountry <- function (
       sia_year = sia_year
       ))
 
-    if (using_sia == 0) {
+    {if (using_sia == 0) {
       t_sia <- t_sia*-1
-    }
+    }}
 
-    print ("Generating data for model...")
-    writelog (log_name, paste0 (iso3, "; Run ",r,"/",runs,"; Start generating data"))
-    updateProgress (iso3, ii, runs, r, 1)
+    print(paste0("Generating data for model: ", iso3))
+    dynamice:::writelog (log_name, paste0 (iso3, "; Run ",r,"/",runs,"; Start generating data"))
+    # updateProgress (iso3, ii, runs, r, 1)
 
     # Vaccine parameters
-    if (psa > 0) {
+    {if (psa > 0) {
       take <- as.numeric (psa_var [r, c("take1_input",
                                         "take2_input",
                                         "take3_input")])
-    }
+    }}
 
     # vaccine take
     take1 <- c (take[1], 0)[sia.method]    # vaccine take (dose 1, before age 1)
@@ -345,7 +346,11 @@ runCountry <- function (
     for (y in years) {
 
       #old script groups those aged 70-80, but division is by actual population size
-      pop.vector <- c_population[year == y, value]
+      pop.vector <- c_population |>
+        filter(year == y) |>
+        arrange(age_from) |>
+        pull(value)
+      #* was: pop.vector <- c_population[year == y, value]
 
       # first expand polymod matrix (contact_tstep) and population vector and
       # then divide by population sizes, otherwise it doesn't work.
@@ -393,11 +398,11 @@ runCountry <- function (
         cycov <- c_coverage_routine [year == y & vaccine == "MCV1", coverage] /
           c_timeliness [is.na(age), prop_final_cov]
 
-        if (length(cycov) == 0) {   # check if vaccine is not yet introduced and thereby, coverage value missing for this year
+        {if (length(cycov) == 0) {   # check if vaccine is not yet introduced and thereby, coverage value missing for this year
           cycov <- 0
         } else if (is.na(cycov)) {
           cycov <- 0
-        }
+        }}
 
         country_year_timeliness_mcv1 <- 1 - min(cycov,1) * country_timeliness
 
@@ -430,7 +435,7 @@ runCountry <- function (
       beta_path <- paste0 ("outcome/", save_scenario, "/", foldername,
                            "/input/", psadir, fortran_country_code)
 
-      if (iyr<10) {
+      {if (iyr<10) {
         dynamice_input_file <- paste0 (beta_path, "_00", iyr, "measle_data.txt")
         beta_file <- paste0 (beta_path, "_00", iyr, "beta.txt")
 
@@ -441,7 +446,7 @@ runCountry <- function (
       } else {
         dynamice_input_file <- paste0 (beta_path,   "_", iyr, "measle_data.txt")
         beta_file <- paste0 (beta_path, "_", iyr, "beta.txt")
-      }
+      }}
 
       fwrite(
         as.list(
@@ -506,15 +511,15 @@ runCountry <- function (
     # --------------------------------------------------------------------------
     # run actual model
     # --------------------------------------------------------------------------
-    if (psa == 0) {
+    {if (psa == 0) {
       p <- 0
     } else {
       p <- r
-    }
-    writelog (log_name, paste0(iso3, "; Run ",r,"/",runs,"; Finished generating data"))
+    }}
+    dynamice:::writelog (log_name, paste0(iso3, "; Run ",r,"/",runs,"; Finished generating data"))
 
     # process debugging options
-    if (debug_country != "*" & !(iso3 %in% debug_country)){
+    {if (debug_country != "*" & !(iso3 %in% debug_country)){
       debug_debug			    <- 0
       debug_compartments	<- 0
       debug_age		       	<- 0
@@ -524,11 +529,11 @@ runCountry <- function (
       debug_debug 	     	<- as.integer (debug_spinup) + 2 * as.integer(debug_model)
       debug_compartments	<- as.integer (debug_compartments)
       debug_relative		  <- as.integer (debug_relative)
-    }
+    }}
 
     # run the model
-    writelog (log_name,paste0(iso3, "; Run ",r,"/",runs,"; Start model"))
-    updateProgress (iso3, ii, runs, r, 2)
+    dynamice:::writelog (log_name,paste0(iso3, "; Run ",r,"/",runs,"; Start model"))
+    # updateProgress (iso3, ii, runs, r, 2)
 
     if(Sys.info()[["sysname"]] == "Windows"){
       model <- paste0(
@@ -574,8 +579,8 @@ runCountry <- function (
     }
   }
 
-  writelog (log_name, paste0(iso3, "; Run ",r,"/",runs,"; Finished model"))
-  updateProgress (iso3, ii, runs, r, 3)
+  dynamice:::writelog (log_name, paste0(iso3, "; Run ",r,"/",runs,"; Finished model"))
+  # updateProgress (iso3, ii, runs, r, 3)
 
   # remove input data for this country
   # if files are removed around the same time by different workers, position may change
@@ -687,7 +692,9 @@ runScenario <- function (vaccine_coverage_folder    = "",
                          debug_model                = FALSE,      # debug model (T/F)
                          contact_mat,                             # contact matrix: "prpmix","polymod","syn"
                          step_ve,                                 # step change of take
-                         sim_years                  = 1980:2100   # calendar years for simulation
+                         sim_years                  = 1980:2023, # calendar years for simulation
+                         filename
+
 ) {
 
   # changes 2019:
@@ -713,8 +720,13 @@ runScenario <- function (vaccine_coverage_folder    = "",
                                    ".csv")
 
   # separate vaccine coverage file for SIA (supplementary immunisation activities)
+  # data_coverage_sia <- paste0 (vaccine_coverage_folder,
+  #                              vaccine_coverage_subfolder,
+  #                              "sia_",
+  #                              scenario_name,
+  #                              ".csv")
   data_coverage_sia <- paste0 (vaccine_coverage_folder,
-                               vaccine_coverage_subfolder,
+                               "scenarios/",
                                "sia_",
                                scenario_name,
                                ".csv")
@@ -735,7 +747,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
   # tack [3] : vaccine efficacy (dose2) and only has an effect if vaccine==2.
   # take [1:2] have different definitions, and should be used with corresponding measles models.
 
-  if (step_ve) {
+  {if (step_ve) {
 
     take 		  <- c (0.85, 0.95, 0.98)
     # take [1] # vaccine efficacy (dose 1, before age 1)
@@ -746,7 +758,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
     take 		  <- c (0.64598, 0.01485, 0.98)
     # take [1] refers to vaceffbyage_a (intercept)
     # take [2] refers to vaceffbyage_b (slope)
-  }
+  }}
 
   degree 		  <- c (0.85, 0.95, 0.98)    # vaccine efficacy for degree1 (degree dose 1, before age 1), degree2 (dose 1, after age 1) & degree3 (dose 2). Note that dose2 only has an effect if vaccine==2.
   tstep			  <- 1000				             # Number of time steps in a year
@@ -778,7 +790,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
   # ----------------------------------------------------------------------------
 
   # load correct libraries when on cluster (using open MPI)
-  if ("cluster_using_openmpi" %in% commandArgs()){
+  {if ("cluster_using_openmpi" %in% commandArgs()){
     using_openmpi <- TRUE
     # require(doMPI) to delete
    #  require(parallel)
@@ -788,26 +800,26 @@ runScenario <- function (vaccine_coverage_folder    = "",
   } else {
     using_openmpi <- FALSE
     print("no openMPI")
-  }
+  }}
 
   # clean environment
-  if (file.exists ("progress")) {
+  {if (file.exists ("progress")) {
     file.remove ("progress")
-  }
+  }}
 
   # are we running a PSA - a deterministic or "stochastic" model?
-  if (psa == 0) {
+  {if (psa == 0) {
     det_stoch <- "deter" # deterministic
     runs      <- 1
 
   } else {
     det_stoch <- "stoch" # stochastic
     runs      <- psa
-  }
+  }}
 
   # create folders with correct name for in- and output data if not yet exists
   # typically foldername should not exist - but may come in handy when only processing results
-  if ( !exists("foldername_analysis") ) {
+  {if ( !exists("foldername_analysis") ) {
 
     foldername <- paste0 (
       format(Sys.time(),format="%Y%m%d"),
@@ -887,19 +899,19 @@ runScenario <- function (vaccine_coverage_folder    = "",
     }
   } else {
     foldername <- foldername_analysis
-  }
+  }}
 
 
   # ----------------------------------------------------------------------------
   # log
   # ----------------------------------------------------------------------------
-  writelog (log_name, paste0("Main; Started"))
+  dynamice:::writelog (log_name, paste0("Main; Started"))
 
-  if (using_openmpi) {
-    writelog (log_name, paste0 ("Main; OpenMPI enabled"))
+  {if (using_openmpi) {
+    dynamice:::writelog (log_name, paste0 ("Main; OpenMPI enabled"))
   } else {
-    writelog (log_name, paste0 ("Main; OpenMPI disabled"))
-  }
+    dynamice:::writelog (log_name, paste0 ("Main; OpenMPI disabled"))
+  }}
 
   # read_data
   coverage_routine	<- copy (fread (data_coverage_routine))[year %in% sim_years]
@@ -913,7 +925,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
   # ----------------------------------------------------------------------------
   # pas variables
   # ----------------------------------------------------------------------------
-  if (psa > 0) {
+  {if (psa > 0) {
     if (file.exists (data_psa)) {
 
       # read csv if file already exists
@@ -926,7 +938,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
     } else {
       stop(paste0("There is no files for inputting PSA variables. Use CreatePSA_Data() to generate the file."))
       }
-  }
+  }}
 
 
   # ----------------------------------------------------------------------------
@@ -934,9 +946,9 @@ runScenario <- function (vaccine_coverage_folder    = "",
   # ----------------------------------------------------------------------------
 
   # if countries are specified to all, then set countries to all countries in coverage file
-  if (countries[[1]] == "all") {
+  {if (countries[[1]] == "all") {
     countries	<- as.character (unique (coverage_routine [, country_code] ) )
-  }
+  }}
 
   # start and end years (should go in as input to function -- INPUT-FUNCTION)
   years    <- as.numeric (sim_years)           # c(1980:2100)
@@ -970,17 +982,18 @@ runScenario <- function (vaccine_coverage_folder    = "",
   }
 
   # Process contact matrices
+  use_kenya <- "KEN"
   contact_list <- switch (contact_mat,
-                          "syn"     = sapply (countries,
+                          "syn"     = sapply (use_kenya, # countries
                                               function(cty){data_contact_syn[[cty]]},
                                               simplify = FALSE, USE.NAMES = TRUE),
-                          "polymod" = sapply (countries,
+                          "polymod" = sapply (use_kenya, # countries
                                               function(cty){data_contact_polymod[[cty]]},
                                               simplify = FALSE, USE.NAMES = TRUE),
-                          "prpmix"  = sapply (countries,
+                          "prpmix"  = sapply (use_kenya, # countries
                                               function(x = NULL){matrix (1/101, nrow = 101, ncol = 101)},
                                               simplify = FALSE, USE.NAMES = TRUE), # not actually used but to fit in the model structure
-                          "unimix"  = sapply (countries,
+                          "unimix"  = sapply (use_kenya, # countries
                                               function(x = NULL){matrix (1/101, nrow = 101, ncol = 101)},
                                               simplify = FALSE, USE.NAMES = TRUE)
                           )
@@ -989,9 +1002,9 @@ runScenario <- function (vaccine_coverage_folder    = "",
   # ----------------------------------------------------------------------------
   # Run model
   # ----------------------------------------------------------------------------
-  writelog (log_name, paste0 ("Main; Foldername: ", foldername))
+  dynamice:::writelog (log_name, paste0 ("Main; Foldername: ", foldername))
 
-  if (using_openmpi | use_cluster > 1){
+  {if (using_openmpi | use_cluster > 1){
     if (!using_openmpi){
 
       if (use_cluster != parallel::detectCores()) {
@@ -1004,18 +1017,23 @@ runScenario <- function (vaccine_coverage_folder    = "",
     } else {
       print (paste0 ("Clustersize: ", doMPI::clusterSize(cl)))
     }
-  }
+  }}
 
 
   # foreach will run countries and PSA runs in parallel if a parallel backend
   # is registered, and sequentially otherwise
   # require(foreach)
+  # require(doParallel)
+  # cl <- makeCluster(8)
+  # registerDoParallel(cl)
+
   combine <-
     foreach (
       ii = 1:length(countries),
-      .packages = c("data.table"),
+      .packages = c("data.table", "dplyr"),
       .errorhandling = "stop", # "pass
-      .export = c("runCountry", "writelog", "expandMatrix", "updateProgress")) %:%
+      .export = c("runCountry", "writelog", "expandMatrix")) %:%
+    # .export = c("runCountry", "writelog", "expandMatrix", "updateProgress")) %:%
     foreach (
       r = 1:runs,
       .errorhandling = "stop") %dopar% {
@@ -1035,7 +1053,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
                                c_coverage_sia     = coverage_sia[country_code == iso3 & coverage != 0,],
                                c_timeliness       = timeliness[country_code == iso3,],
                                contact_mat        = contact_mat,
-                               c_contact          = contact_list[[iso3]],
+                               c_contact          = contact_list[["KEN"]], #*make it use KEN | original: contact_list((iso3))
                                c_rnought          = rnought[country_code == iso3, r0], #rnought[[countries[ii]]],
                                c_population       = population[country_code == iso3,],
                                tstep              = tstep,
@@ -1056,17 +1074,16 @@ runScenario <- function (vaccine_coverage_folder    = "",
                                psa_var            = psa_var,
                                run_model          = run_model,
                                remove_files       = remove_files
-                               )
+        )
         return(out_run)
-        }
 
-  if(using_openmpi | use_cluster > 1){
-    if (!using_openmpi){
-      parallel::stopCluster(cl)
-    } else {
-      doMPI::closeCluster(cl)
-    }
-  }
+      }
+
+    #* {if (!using_openmpi){
+    #*   parallel::stopCluster(cl)
+    #* } else {
+    #*   doMPI::closeCluster(cl)
+    #* }}
 
   # check for errors
   errorcount <- 0
@@ -1075,7 +1092,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
     if ("error" %in% class(combine[[i]])){
       errormessage <- paste0 ("Error in task ", i, ": ", combine[[i]])
       warning(errormessage)
-      writelog (log_name, errormessage)
+      dynamice:::writelog (log_name, errormessage)
       errorcount <- errorcount + 1
       #remove from data
       combine[[i]] <- NULL
@@ -1129,11 +1146,11 @@ runScenario <- function (vaccine_coverage_folder    = "",
   }))
   all_popsize[country == "XKX", country := "XK"]
 
-  if (psa > 0) {
+  {if (psa > 0) {
     column_names <- c("year", "country", "run_id")
   } else {
     column_names <- c("year", "country")
-  }
+  }}
 
   # all_cases.m <- melt(all_cases, id.vars = c("year","country"),
   all_cases.m <- melt (all_cases, id.vars = column_names,
@@ -1161,7 +1178,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
   # add data column for remaining life expectancy
   lexp_remain <- tailor_data_lexp_remain(countries)
 
-  if (psa > 0) {
+  {if (psa > 0) {
     all_runs <- lexp_remain [all_runs,
                                   .(run_id, i.country, year, age, cases, cohort_size, country_name, disease, value),
                                   on = .(country_code = country,
@@ -1173,7 +1190,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
                                   on = .(country_code = country,
                                          age          = age,
                                          year         = year) ]
-  }
+  }}
 
   # rename column names for output
   setnames (all_runs,
@@ -1184,7 +1201,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
   # add data column for MCV1 coverage
   coverage_routine_MCV1 <- coverage_routine [vaccine == "MCV1"]
 
-  if (psa > 0) {
+  {if (psa > 0) {
     all_runs <- coverage_routine_MCV1 [all_runs,
                                        .(run_id, i.country, i.year, age, cases, cohort_size, country_name, disease, coverage, remain_lexp),
                                        on = .(country_code = country,
@@ -1194,7 +1211,7 @@ runScenario <- function (vaccine_coverage_folder    = "",
                                        .(i.country, i.year, age, cases, cohort_size, country_name, disease, coverage, remain_lexp),
                                        on = .(country_code = country,
                                               year         = year) ]
-  }
+  }}
 
   # rename column "coverage" to "MCV1"
   setnames (x = all_runs,
@@ -1222,29 +1239,30 @@ runScenario <- function (vaccine_coverage_folder    = "",
   output_runs <- subset (all_runs, year %in% report_years)
 
   # burden estimate type -- central or stochastic
-  if (psa > 0) {
+  {if (psa > 0) {
     burden_estimate_type <- "stochastic_burden_estimate_"
   } else {
     burden_estimate_type <- "central_burden_estimate_"
-  }
+  }}
 
   # burden estimate filename
-  burden_estimate_file <- paste0 (burden_estimate_type,
-                                  antigen,
-                                  group_name,
-                                  scenario_name,
-                                  ".csv")
+  # burden_estimate_file <- paste0 (burden_estimate_type,
+  #                                 antigen,
+  #                                 group_name,
+  #                                 scenario_name,
+  #                                 ".csv")
+  burden_estimate_file <- filename # my own addition
 
   # save burden estimates to file
   fwrite (x    = output_runs [order (country, year, age)],
           file = paste0 (burden_estimate_folder,  burden_estimate_file))
 
   # clean environment
-  writelog (log_name, paste0 ("Main; Finished"))
+  dynamice:::writelog (log_name, paste0 ("Main; Finished"))
 
-  if (using_openmpi) {
+  {if (using_openmpi) {
     Rmpi::mpi.quit()
-  }
+  }}
 
   # return burden estimate filename (cases)
   return (burden_estimate_file)
@@ -1301,9 +1319,9 @@ estimate_deaths_dalys <- function (cfr_option,
   burden <- fread (file = paste0 (burden_estimate_folder,
                                   burden_estimate_file) )
 
-  if (psa > 0) {
+  {if (psa > 0) {
     psa_var	<- fread("psa_variables.csv")
-  }
+  }}
 
   # ----------------------------------------------------------------------------
   # use CFRs -- Wolfson
@@ -1311,7 +1329,13 @@ estimate_deaths_dalys <- function (cfr_option,
   if (cfr_option == "Wolfson") {
 
     # read CFRs  -- Wolfson
-    cfr = setDT (data_cfr_wolfson)
+    kenya_wolfson_val <-data_cfr_wolfson |> filter(country == "Kenya") |> pull(CFR)
+    cfr = setDT (data_cfr_wolfson) |>
+      bind_rows(
+        burden |> select(country_code = country, country = country_name) |> distinct() |>
+          mutate(CFR = kenya_wolfson_val)
+      ) |>
+      distinct()
 
     # cfr estimates for ages below 5 years, not varying by time
     # cfrs for ages above 5 years are half the cfr values for ages below 5 years
@@ -1350,7 +1374,20 @@ estimate_deaths_dalys <- function (cfr_option,
   if (cfr_option == "Portnoy") {
 
     # read CFRs (rates between 0 and 1) -- Portnoy
-    cfr = setDT (data_cfr_portnoy)
+    temp_counties <- NULL
+    temp_kenya <- data_cfr_portnoy |> filter(country_name == "Kenya")
+    u_code <- unique(burden$country)
+    u_name <- unique(burden$country_name)
+    for (i in 1:length(u_code)) {
+      temp_counties <- bind_rows(temp_counties,
+                                 temp_kenya |>
+                                   mutate(country_name = u_name[i],
+                                          country_code = u_code[i]))
+    }
+
+
+    #* cfr = setDT (data_cfr_portnoy)
+    cfr = setDT (temp_counties)
 
     # cfr estimates are for 2000 to 2030
     # if cfr estimates are required for years below or above this range, then
@@ -1362,16 +1399,16 @@ estimate_deaths_dalys <- function (cfr_option,
     max_year = max (burden [, year])
 
     # set cfrs for years before 2000 to cfr values of year 2000
-    if (min_year < 2000) {
+    {if (min_year < 2000) {
       cfr.year <- rbindlist (lapply (min_year:1999, function(i) copy (cfr [year == 2000, ])[, year := i]))
       cfr      <- rbind     (cfr.year, cfr, use.names = TRUE)
-    }
+    }}
 
     # set cfrs after 2030 to 2030
-    if (max_year > 2030) {
+    {if (max_year > 2030) {
       cfr.year <- rbindlist (lapply (2031:max_year, function(i) copy (cfr [year == 2030, ])[, year := i]))
       cfr      <- rbind     (cfr, cfr.year, use.names = TRUE)
-    }
+    }}
 
     # rename columns -- cfr of vimc_scenario and portnoy_scenario
     # cfrs for under 5 (< 5) and over 5 (>= 5) years

@@ -368,13 +368,34 @@ create_campaign_vaccination_coverage_file <- function (campaign_only_vaccination
 #' @examples
 #' lexp_remain <- tailor_data_lexp_remain (sel_countries = c("AGO","BGD"))
 tailor_data_lexp_remain <- function (sel_countries = "all"){
-
-  lexp_remain <- setDT (data_lexp_remain)
+  # omit from line 371 to 387
+  county_codes <- read.csv("own-reports/county_codes.csv")
+  county_names <- county_codes |> filter(code %in% sel_countries) |> pull(name)
+  temp_kenya_lexp <- NULL
+  {if (length(sel_countries) == 1) {
+    temp_kenya_lexp <- data_lexp_remain |>
+      filter(country == "Kenya") |>
+      mutate(country_code = sel_countries[1],
+             country = county_names[1])
+  } else {
+    for (i in 1:length(sel_countries)) {
+      temp_kenya_lexp <-rbind(temp_kenya_lexp,
+                              data_lexp_remain |> filter(country == "Kenya") |>
+                                mutate(country_code = sel_countries[i],
+                                       country = county_names[i]))
+    }
+  }}
+  lexp_remain <-temp_kenya_lexp
   lexp_remain <- lexp_remain [year >= 1980]
 
-  if (sel_countries[[1]] != "all") {
-    lexp_remain <- lexp_remain [country_code %in% sel_countries]
-  }
+
+  #* lexp_remain <- setDT (data_lexp_remain)
+  #* lexp_remain <- lexp_remain [year >= 1980]
+  #*
+  #* if (sel_countries[[1]] != "all") {
+  #*   lexp_remain <- lexp_remain [country_code %in% sel_countries]
+  #* }
+
 
   # copy values for year 2095 to year 2100
   lexp_remain <- rbind (lexp_remain, copy (lexp_remain [year == 2095])[, year := 2100])

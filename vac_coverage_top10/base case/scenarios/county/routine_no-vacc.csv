@@ -1,0 +1,1814 @@
+vaccine,country_code,country,year,coverage
+MCV1,KEN,Kenya,1980,0
+MCV1,KEN,Kenya,1981,0
+MCV1,KEN,Kenya,1982,0
+MCV1,KEN,Kenya,1983,0
+MCV1,KEN,Kenya,1984,0
+MCV1,KEN,Kenya,1985,0
+MCV1,KEN,Kenya,1986,0
+MCV1,KEN,Kenya,1987,0
+MCV1,KEN,Kenya,1988,0
+MCV1,KEN,Kenya,1989,0
+MCV1,KEN,Kenya,1990,0
+MCV1,KEN,Kenya,1991,0
+MCV1,KEN,Kenya,1992,0
+MCV1,KEN,Kenya,1993,0
+MCV1,KEN,Kenya,1994,0
+MCV1,KEN,Kenya,1995,0
+MCV1,KEN,Kenya,1996,0
+MCV1,KEN,Kenya,1997,0
+MCV1,KEN,Kenya,1998,0
+MCV1,KEN,Kenya,1999,0
+MCV1,KEN,Kenya,2000,0
+MCV1,KEN,Kenya,2001,0
+MCV1,KEN,Kenya,2002,0
+MCV1,KEN,Kenya,2003,0
+MCV1,KEN,Kenya,2004,0
+MCV1,KEN,Kenya,2005,0
+MCV1,KEN,Kenya,2006,0
+MCV1,KEN,Kenya,2007,0
+MCV1,KEN,Kenya,2008,0
+MCV1,KEN,Kenya,2009,0
+MCV1,KEN,Kenya,2010,0
+MCV1,KEN,Kenya,2011,0
+MCV1,KEN,Kenya,2012,0
+MCV1,KEN,Kenya,2013,0
+MCV1,KEN,Kenya,2014,0
+MCV1,KEN,Kenya,2015,0
+MCV1,KEN,Kenya,2016,0
+MCV1,KEN,Kenya,2017,0
+MCV1,KEN,Kenya,2018,0
+MCV1,KEN,Kenya,2019,0
+MCV1,KEN,Kenya,2020,0
+MCV1,KEN,Kenya,2021,0
+MCV1,KEN,Kenya,2022,0
+MCV1,KEN,Kenya,2023,0
+MCV1,KEN,Kenya,2024,0
+MCV1,KEN,Kenya,2025,0
+MCV1,KEN,Kenya,2026,0
+MCV1,KEN,Kenya,2027,0
+MCV1,KEN,Kenya,2028,0
+MCV1,KEN,Kenya,2029,0
+MCV1,KEN,Kenya,2030,0
+MCV1,KEN,Kenya,2031,0
+MCV1,KEN,Kenya,2032,0
+MCV1,KEN,Kenya,2033,0
+MCV1,KEN,Kenya,2034,0
+MCV1,KEN,Kenya,2035,0
+MCV1,KEN,Kenya,2036,0
+MCV1,KEN,Kenya,2037,0
+MCV1,KEN,Kenya,2038,0
+MCV1,KEN,Kenya,2039,0
+MCV1,KEN,Kenya,2040,0
+MCV1,KEN,Kenya,2041,0
+MCV1,KEN,Kenya,2042,0
+MCV1,KEN,Kenya,2043,0
+MCV1,KEN,Kenya,2044,0
+MCV1,KEN,Kenya,2045,0
+MCV1,KEN,Kenya,2046,0
+MCV1,KEN,Kenya,2047,0
+MCV1,KEN,Kenya,2048,0
+MCV1,KEN,Kenya,2049,0
+MCV1,KEN,Kenya,2050,0
+MCV1,KEN,Kenya,2051,0
+MCV1,KEN,Kenya,2052,0
+MCV1,KEN,Kenya,2053,0
+MCV1,KEN,Kenya,2054,0
+MCV1,KEN,Kenya,2055,0
+MCV1,KEN,Kenya,2056,0
+MCV1,KEN,Kenya,2057,0
+MCV1,KEN,Kenya,2058,0
+MCV1,KEN,Kenya,2059,0
+MCV1,KEN,Kenya,2060,0
+MCV1,KEN,Kenya,2061,0
+MCV1,KEN,Kenya,2062,0
+MCV1,KEN,Kenya,2063,0
+MCV1,KEN,Kenya,2064,0
+MCV1,KEN,Kenya,2065,0
+MCV1,KEN,Kenya,2066,0
+MCV1,KEN,Kenya,2067,0
+MCV1,KEN,Kenya,2068,0
+MCV1,KEN,Kenya,2069,0
+MCV1,KEN,Kenya,2070,0
+MCV1,KEN,Kenya,2071,0
+MCV1,KEN,Kenya,2072,0
+MCV1,KEN,Kenya,2073,0
+MCV1,KEN,Kenya,2074,0
+MCV1,KEN,Kenya,2075,0
+MCV1,KEN,Kenya,2076,0
+MCV1,KEN,Kenya,2077,0
+MCV1,KEN,Kenya,2078,0
+MCV1,KEN,Kenya,2079,0
+MCV1,KEN,Kenya,2080,0
+MCV1,KEN,Kenya,2081,0
+MCV1,KEN,Kenya,2082,0
+MCV1,KEN,Kenya,2083,0
+MCV1,KEN,Kenya,2084,0
+MCV1,KEN,Kenya,2085,0
+MCV1,KEN,Kenya,2086,0
+MCV1,KEN,Kenya,2087,0
+MCV1,KEN,Kenya,2088,0
+MCV1,KEN,Kenya,2089,0
+MCV1,KEN,Kenya,2090,0
+MCV1,KEN,Kenya,2091,0
+MCV1,KEN,Kenya,2092,0
+MCV1,KEN,Kenya,2093,0
+MCV1,KEN,Kenya,2094,0
+MCV1,KEN,Kenya,2095,0
+MCV1,KEN,Kenya,2096,0
+MCV1,KEN,Kenya,2097,0
+MCV1,KEN,Kenya,2098,0
+MCV1,KEN,Kenya,2099,0
+MCV1,KEN,Kenya,2100,0
+MCV1,BAR,baringo,2013,0
+MCV1,BAR,baringo,2014,0
+MCV1,BAR,baringo,2015,0
+MCV1,BAR,baringo,2016,0
+MCV1,BAR,baringo,2017,0
+MCV1,BAR,baringo,2018,0
+MCV1,BAR,baringo,2019,0
+MCV1,BAR,baringo,2020,0
+MCV1,BAR,baringo,2021,0
+MCV1,BAR,baringo,2022,0
+MCV1,BAR,baringo,2023,0
+MCV1,BAR,baringo,2028,0
+MCV1,BAR,baringo,2027,0
+MCV1,BAR,baringo,2025,0
+MCV1,BAR,baringo,2026,0
+MCV1,BAR,baringo,2029,0
+MCV1,BAR,baringo,2024,0
+MCV1,BAR,baringo,2030,0
+MCV1,BOM,bomet,2013,0
+MCV1,BOM,bomet,2017,0
+MCV1,BOM,bomet,2014,0
+MCV1,BOM,bomet,2021,0
+MCV1,BOM,bomet,2018,0
+MCV1,BOM,bomet,2016,0
+MCV1,BOM,bomet,2025,0
+MCV1,BOM,bomet,2019,0
+MCV1,BOM,bomet,2020,0
+MCV1,BOM,bomet,2028,0
+MCV1,BOM,bomet,2029,0
+MCV1,BOM,bomet,2027,0
+MCV1,BOM,bomet,2026,0
+MCV1,BOM,bomet,2023,0
+MCV1,BOM,bomet,2030,0
+MCV1,BOM,bomet,2015,0
+MCV1,BOM,bomet,2024,0
+MCV1,BOM,bomet,2022,0
+MCV1,BMA,bungoma,2021,0
+MCV1,BMA,bungoma,2014,0
+MCV1,BMA,bungoma,2025,0
+MCV1,BMA,bungoma,2022,0
+MCV1,BMA,bungoma,2015,0
+MCV1,BMA,bungoma,2016,0
+MCV1,BMA,bungoma,2019,0
+MCV1,BMA,bungoma,2029,0
+MCV1,BMA,bungoma,2023,0
+MCV1,BMA,bungoma,2020,0
+MCV1,BMA,bungoma,2030,0
+MCV1,BMA,bungoma,2027,0
+MCV1,BMA,bungoma,2026,0
+MCV1,BMA,bungoma,2028,0
+MCV1,BMA,bungoma,2024,0
+MCV1,BMA,bungoma,2017,0
+MCV1,BMA,bungoma,2018,0
+MCV1,BMA,bungoma,2013,0
+MCV1,BSA,busia,2018,0
+MCV1,BSA,busia,2019,0
+MCV1,BSA,busia,2029,0
+MCV1,BSA,busia,2017,0
+MCV1,BSA,busia,2026,0
+MCV1,BSA,busia,2024,0
+MCV1,BSA,busia,2023,0
+MCV1,BSA,busia,2025,0
+MCV1,BSA,busia,2022,0
+MCV1,BSA,busia,2028,0
+MCV1,BSA,busia,2015,0
+MCV1,BSA,busia,2027,0
+MCV1,BSA,busia,2016,0
+MCV1,BSA,busia,2030,0
+MCV1,BSA,busia,2021,0
+MCV1,BSA,busia,2020,0
+MCV1,BSA,busia,2014,0
+MCV1,BSA,busia,2013,0
+MCV1,ELM,elgeyo-marakwet,2015,0
+MCV1,ELM,elgeyo-marakwet,2029,0
+MCV1,ELM,elgeyo-marakwet,2025,0
+MCV1,ELM,elgeyo-marakwet,2013,0
+MCV1,ELM,elgeyo-marakwet,2027,0
+MCV1,ELM,elgeyo-marakwet,2014,0
+MCV1,ELM,elgeyo-marakwet,2026,0
+MCV1,ELM,elgeyo-marakwet,2016,0
+MCV1,ELM,elgeyo-marakwet,2021,0
+MCV1,ELM,elgeyo-marakwet,2024,0
+MCV1,ELM,elgeyo-marakwet,2028,0
+MCV1,ELM,elgeyo-marakwet,2030,0
+MCV1,ELM,elgeyo-marakwet,2020,0
+MCV1,ELM,elgeyo-marakwet,2022,0
+MCV1,ELM,elgeyo-marakwet,2023,0
+MCV1,ELM,elgeyo-marakwet,2017,0
+MCV1,ELM,elgeyo-marakwet,2018,0
+MCV1,ELM,elgeyo-marakwet,2019,0
+MCV1,MBU,embu,2029,0
+MCV1,MBU,embu,2016,0
+MCV1,MBU,embu,2028,0
+MCV1,MBU,embu,2025,0
+MCV1,MBU,embu,2024,0
+MCV1,MBU,embu,2017,0
+MCV1,MBU,embu,2013,0
+MCV1,MBU,embu,2014,0
+MCV1,MBU,embu,2027,0
+MCV1,MBU,embu,2026,0
+MCV1,MBU,embu,2018,0
+MCV1,MBU,embu,2030,0
+MCV1,MBU,embu,2015,0
+MCV1,MBU,embu,2020,0
+MCV1,MBU,embu,2023,0
+MCV1,MBU,embu,2022,0
+MCV1,MBU,embu,2019,0
+MCV1,MBU,embu,2021,0
+MCV1,GSA,garissa,2025,0
+MCV1,GSA,garissa,2026,0
+MCV1,GSA,garissa,2028,0
+MCV1,GSA,garissa,2014,0
+MCV1,GSA,garissa,2015,0
+MCV1,GSA,garissa,2016,0
+MCV1,GSA,garissa,2017,0
+MCV1,GSA,garissa,2018,0
+MCV1,GSA,garissa,2019,0
+MCV1,GSA,garissa,2029,0
+MCV1,GSA,garissa,2013,0
+MCV1,GSA,garissa,2030,0
+MCV1,GSA,garissa,2024,0
+MCV1,GSA,garissa,2021,0
+MCV1,GSA,garissa,2022,0
+MCV1,GSA,garissa,2027,0
+MCV1,GSA,garissa,2020,0
+MCV1,GSA,garissa,2023,0
+MCV1,HBA,homa bay,2024,0
+MCV1,HBA,homa bay,2017,0
+MCV1,HBA,homa bay,2019,0
+MCV1,HBA,homa bay,2020,0
+MCV1,HBA,homa bay,2021,0
+MCV1,HBA,homa bay,2018,0
+MCV1,HBA,homa bay,2013,0
+MCV1,HBA,homa bay,2014,0
+MCV1,HBA,homa bay,2026,0
+MCV1,HBA,homa bay,2016,0
+MCV1,HBA,homa bay,2030,0
+MCV1,HBA,homa bay,2025,0
+MCV1,HBA,homa bay,2027,0
+MCV1,HBA,homa bay,2029,0
+MCV1,HBA,homa bay,2023,0
+MCV1,HBA,homa bay,2028,0
+MCV1,HBA,homa bay,2015,0
+MCV1,HBA,homa bay,2022,0
+MCV1,ISO,isiolo,2022,0
+MCV1,ISO,isiolo,2023,0
+MCV1,ISO,isiolo,2017,0
+MCV1,ISO,isiolo,2014,0
+MCV1,ISO,isiolo,2016,0
+MCV1,ISO,isiolo,2021,0
+MCV1,ISO,isiolo,2018,0
+MCV1,ISO,isiolo,2027,0
+MCV1,ISO,isiolo,2020,0
+MCV1,ISO,isiolo,2029,0
+MCV1,ISO,isiolo,2030,0
+MCV1,ISO,isiolo,2024,0
+MCV1,ISO,isiolo,2015,0
+MCV1,ISO,isiolo,2028,0
+MCV1,ISO,isiolo,2026,0
+MCV1,ISO,isiolo,2013,0
+MCV1,ISO,isiolo,2025,0
+MCV1,ISO,isiolo,2019,0
+MCV1,KJD,kajiado,2013,0
+MCV1,KJD,kajiado,2030,0
+MCV1,KJD,kajiado,2024,0
+MCV1,KJD,kajiado,2014,0
+MCV1,KJD,kajiado,2018,0
+MCV1,KJD,kajiado,2019,0
+MCV1,KJD,kajiado,2028,0
+MCV1,KJD,kajiado,2026,0
+MCV1,KJD,kajiado,2017,0
+MCV1,KJD,kajiado,2029,0
+MCV1,KJD,kajiado,2021,0
+MCV1,KJD,kajiado,2027,0
+MCV1,KJD,kajiado,2023,0
+MCV1,KJD,kajiado,2016,0
+MCV1,KJD,kajiado,2022,0
+MCV1,KJD,kajiado,2025,0
+MCV1,KJD,kajiado,2020,0
+MCV1,KJD,kajiado,2015,0
+MCV1,KKM,kakamega,2016,0
+MCV1,KKM,kakamega,2030,0
+MCV1,KKM,kakamega,2015,0
+MCV1,KKM,kakamega,2022,0
+MCV1,KKM,kakamega,2028,0
+MCV1,KKM,kakamega,2021,0
+MCV1,KKM,kakamega,2014,0
+MCV1,KKM,kakamega,2029,0
+MCV1,KKM,kakamega,2025,0
+MCV1,KKM,kakamega,2020,0
+MCV1,KKM,kakamega,2026,0
+MCV1,KKM,kakamega,2024,0
+MCV1,KKM,kakamega,2023,0
+MCV1,KKM,kakamega,2027,0
+MCV1,KKM,kakamega,2017,0
+MCV1,KKM,kakamega,2013,0
+MCV1,KKM,kakamega,2018,0
+MCV1,KKM,kakamega,2019,0
+MCV1,KCH,kericho,2030,0
+MCV1,KCH,kericho,2028,0
+MCV1,KCH,kericho,2017,0
+MCV1,KCH,kericho,2024,0
+MCV1,KCH,kericho,2018,0
+MCV1,KCH,kericho,2023,0
+MCV1,KCH,kericho,2026,0
+MCV1,KCH,kericho,2013,0
+MCV1,KCH,kericho,2025,0
+MCV1,KCH,kericho,2027,0
+MCV1,KCH,kericho,2019,0
+MCV1,KCH,kericho,2016,0
+MCV1,KCH,kericho,2020,0
+MCV1,KCH,kericho,2021,0
+MCV1,KCH,kericho,2014,0
+MCV1,KCH,kericho,2029,0
+MCV1,KCH,kericho,2022,0
+MCV1,KCH,kericho,2015,0
+MCV1,KIA,kiambu,2021,0
+MCV1,KIA,kiambu,2030,0
+MCV1,KIA,kiambu,2014,0
+MCV1,KIA,kiambu,2015,0
+MCV1,KIA,kiambu,2025,0
+MCV1,KIA,kiambu,2022,0
+MCV1,KIA,kiambu,2020,0
+MCV1,KIA,kiambu,2028,0
+MCV1,KIA,kiambu,2026,0
+MCV1,KIA,kiambu,2027,0
+MCV1,KIA,kiambu,2013,0
+MCV1,KIA,kiambu,2029,0
+MCV1,KIA,kiambu,2019,0
+MCV1,KIA,kiambu,2016,0
+MCV1,KIA,kiambu,2017,0
+MCV1,KIA,kiambu,2018,0
+MCV1,KIA,kiambu,2024,0
+MCV1,KIA,kiambu,2023,0
+MCV1,KIF,kilifi,2017,0
+MCV1,KIF,kilifi,2028,0
+MCV1,KIF,kilifi,2013,0
+MCV1,KIF,kilifi,2014,0
+MCV1,KIF,kilifi,2015,0
+MCV1,KIF,kilifi,2016,0
+MCV1,KIF,kilifi,2027,0
+MCV1,KIF,kilifi,2029,0
+MCV1,KIF,kilifi,2018,0
+MCV1,KIF,kilifi,2019,0
+MCV1,KIF,kilifi,2020,0
+MCV1,KIF,kilifi,2021,0
+MCV1,KIF,kilifi,2022,0
+MCV1,KIF,kilifi,2024,0
+MCV1,KIF,kilifi,2030,0
+MCV1,KIF,kilifi,2026,0
+MCV1,KIF,kilifi,2025,0
+MCV1,KIF,kilifi,2023,0
+MCV1,KGA,kirinyaga,2014,0
+MCV1,KGA,kirinyaga,2015,0
+MCV1,KGA,kirinyaga,2030,0
+MCV1,KGA,kirinyaga,2025,0
+MCV1,KGA,kirinyaga,2020,0
+MCV1,KGA,kirinyaga,2016,0
+MCV1,KGA,kirinyaga,2013,0
+MCV1,KGA,kirinyaga,2023,0
+MCV1,KGA,kirinyaga,2027,0
+MCV1,KGA,kirinyaga,2021,0
+MCV1,KGA,kirinyaga,2022,0
+MCV1,KGA,kirinyaga,2017,0
+MCV1,KGA,kirinyaga,2024,0
+MCV1,KGA,kirinyaga,2018,0
+MCV1,KGA,kirinyaga,2026,0
+MCV1,KGA,kirinyaga,2029,0
+MCV1,KGA,kirinyaga,2019,0
+MCV1,KGA,kirinyaga,2028,0
+MCV1,KIS,kisii,2013,0
+MCV1,KIS,kisii,2020,0
+MCV1,KIS,kisii,2019,0
+MCV1,KIS,kisii,2025,0
+MCV1,KIS,kisii,2021,0
+MCV1,KIS,kisii,2018,0
+MCV1,KIS,kisii,2029,0
+MCV1,KIS,kisii,2024,0
+MCV1,KIS,kisii,2030,0
+MCV1,KIS,kisii,2023,0
+MCV1,KIS,kisii,2026,0
+MCV1,KIS,kisii,2017,0
+MCV1,KIS,kisii,2027,0
+MCV1,KIS,kisii,2014,0
+MCV1,KIS,kisii,2028,0
+MCV1,KIS,kisii,2022,0
+MCV1,KIS,kisii,2015,0
+MCV1,KIS,kisii,2016,0
+MCV1,KSU,kisumu,2023,0
+MCV1,KSU,kisumu,2016,0
+MCV1,KSU,kisumu,2014,0
+MCV1,KSU,kisumu,2015,0
+MCV1,KSU,kisumu,2030,0
+MCV1,KSU,kisumu,2013,0
+MCV1,KSU,kisumu,2029,0
+MCV1,KSU,kisumu,2022,0
+MCV1,KSU,kisumu,2025,0
+MCV1,KSU,kisumu,2017,0
+MCV1,KSU,kisumu,2028,0
+MCV1,KSU,kisumu,2021,0
+MCV1,KSU,kisumu,2024,0
+MCV1,KSU,kisumu,2027,0
+MCV1,KSU,kisumu,2018,0
+MCV1,KSU,kisumu,2026,0
+MCV1,KSU,kisumu,2020,0
+MCV1,KSU,kisumu,2019,0
+MCV1,KTU,kitui,2018,0
+MCV1,KTU,kitui,2023,0
+MCV1,KTU,kitui,2019,0
+MCV1,KTU,kitui,2029,0
+MCV1,KTU,kitui,2017,0
+MCV1,KTU,kitui,2025,0
+MCV1,KTU,kitui,2013,0
+MCV1,KTU,kitui,2030,0
+MCV1,KTU,kitui,2026,0
+MCV1,KTU,kitui,2015,0
+MCV1,KTU,kitui,2027,0
+MCV1,KTU,kitui,2024,0
+MCV1,KTU,kitui,2014,0
+MCV1,KTU,kitui,2028,0
+MCV1,KTU,kitui,2016,0
+MCV1,KTU,kitui,2021,0
+MCV1,KTU,kitui,2020,0
+MCV1,KTU,kitui,2022,0
+MCV1,KLE,kwale,2027,0
+MCV1,KLE,kwale,2014,0
+MCV1,KLE,kwale,2015,0
+MCV1,KLE,kwale,2029,0
+MCV1,KLE,kwale,2030,0
+MCV1,KLE,kwale,2025,0
+MCV1,KLE,kwale,2018,0
+MCV1,KLE,kwale,2024,0
+MCV1,KLE,kwale,2013,0
+MCV1,KLE,kwale,2016,0
+MCV1,KLE,kwale,2017,0
+MCV1,KLE,kwale,2019,0
+MCV1,KLE,kwale,2026,0
+MCV1,KLE,kwale,2020,0
+MCV1,KLE,kwale,2021,0
+MCV1,KLE,kwale,2022,0
+MCV1,KLE,kwale,2028,0
+MCV1,KLE,kwale,2023,0
+MCV1,LKP,laikipia,2018,0
+MCV1,LKP,laikipia,2017,0
+MCV1,LKP,laikipia,2025,0
+MCV1,LKP,laikipia,2019,0
+MCV1,LKP,laikipia,2026,0
+MCV1,LKP,laikipia,2028,0
+MCV1,LKP,laikipia,2027,0
+MCV1,LKP,laikipia,2024,0
+MCV1,LKP,laikipia,2020,0
+MCV1,LKP,laikipia,2021,0
+MCV1,LKP,laikipia,2016,0
+MCV1,LKP,laikipia,2030,0
+MCV1,LKP,laikipia,2013,0
+MCV1,LKP,laikipia,2014,0
+MCV1,LKP,laikipia,2022,0
+MCV1,LKP,laikipia,2023,0
+MCV1,LKP,laikipia,2015,0
+MCV1,LKP,laikipia,2029,0
+MCV1,LMU,lamu,2013,0
+MCV1,LMU,lamu,2014,0
+MCV1,LMU,lamu,2021,0
+MCV1,LMU,lamu,2022,0
+MCV1,LMU,lamu,2023,0
+MCV1,LMU,lamu,2020,0
+MCV1,LMU,lamu,2016,0
+MCV1,LMU,lamu,2017,0
+MCV1,LMU,lamu,2018,0
+MCV1,LMU,lamu,2019,0
+MCV1,LMU,lamu,2028,0
+MCV1,LMU,lamu,2025,0
+MCV1,LMU,lamu,2024,0
+MCV1,LMU,lamu,2030,0
+MCV1,LMU,lamu,2015,0
+MCV1,LMU,lamu,2027,0
+MCV1,LMU,lamu,2026,0
+MCV1,LMU,lamu,2029,0
+MCV1,MCH,machakos,2015,0
+MCV1,MCH,machakos,2014,0
+MCV1,MCH,machakos,2028,0
+MCV1,MCH,machakos,2016,0
+MCV1,MCH,machakos,2030,0
+MCV1,MCH,machakos,2021,0
+MCV1,MCH,machakos,2025,0
+MCV1,MCH,machakos,2013,0
+MCV1,MCH,machakos,2020,0
+MCV1,MCH,machakos,2026,0
+MCV1,MCH,machakos,2022,0
+MCV1,MCH,machakos,2019,0
+MCV1,MCH,machakos,2024,0
+MCV1,MCH,machakos,2017,0
+MCV1,MCH,machakos,2018,0
+MCV1,MCH,machakos,2027,0
+MCV1,MCH,machakos,2023,0
+MCV1,MCH,machakos,2029,0
+MCV1,MKU,makueni,2017,0
+MCV1,MKU,makueni,2016,0
+MCV1,MKU,makueni,2030,0
+MCV1,MKU,makueni,2018,0
+MCV1,MKU,makueni,2024,0
+MCV1,MKU,makueni,2023,0
+MCV1,MKU,makueni,2028,0
+MCV1,MKU,makueni,2022,0
+MCV1,MKU,makueni,2026,0
+MCV1,MKU,makueni,2015,0
+MCV1,MKU,makueni,2013,0
+MCV1,MKU,makueni,2025,0
+MCV1,MKU,makueni,2027,0
+MCV1,MKU,makueni,2029,0
+MCV1,MKU,makueni,2014,0
+MCV1,MKU,makueni,2020,0
+MCV1,MKU,makueni,2021,0
+MCV1,MKU,makueni,2019,0
+MCV1,MDR,mandera,2020,0
+MCV1,MDR,mandera,2021,0
+MCV1,MDR,mandera,2024,0
+MCV1,MDR,mandera,2030,0
+MCV1,MDR,mandera,2019,0
+MCV1,MDR,mandera,2018,0
+MCV1,MDR,mandera,2014,0
+MCV1,MDR,mandera,2013,0
+MCV1,MDR,mandera,2029,0
+MCV1,MDR,mandera,2028,0
+MCV1,MDR,mandera,2017,0
+MCV1,MDR,mandera,2027,0
+MCV1,MDR,mandera,2025,0
+MCV1,MDR,mandera,2026,0
+MCV1,MDR,mandera,2016,0
+MCV1,MDR,mandera,2022,0
+MCV1,MDR,mandera,2023,0
+MCV1,MDR,mandera,2015,0
+MCV1,MRS,marsabit,2023,0
+MCV1,MRS,marsabit,2026,0
+MCV1,MRS,marsabit,2016,0
+MCV1,MRS,marsabit,2025,0
+MCV1,MRS,marsabit,2022,0
+MCV1,MRS,marsabit,2024,0
+MCV1,MRS,marsabit,2030,0
+MCV1,MRS,marsabit,2015,0
+MCV1,MRS,marsabit,2027,0
+MCV1,MRS,marsabit,2021,0
+MCV1,MRS,marsabit,2020,0
+MCV1,MRS,marsabit,2013,0
+MCV1,MRS,marsabit,2014,0
+MCV1,MRS,marsabit,2029,0
+MCV1,MRS,marsabit,2019,0
+MCV1,MRS,marsabit,2028,0
+MCV1,MRS,marsabit,2017,0
+MCV1,MRS,marsabit,2018,0
+MCV1,MRU,meru,2026,0
+MCV1,MRU,meru,2030,0
+MCV1,MRU,meru,2025,0
+MCV1,MRU,meru,2018,0
+MCV1,MRU,meru,2017,0
+MCV1,MRU,meru,2024,0
+MCV1,MRU,meru,2023,0
+MCV1,MRU,meru,2027,0
+MCV1,MRU,meru,2029,0
+MCV1,MRU,meru,2016,0
+MCV1,MRU,meru,2028,0
+MCV1,MRU,meru,2014,0
+MCV1,MRU,meru,2015,0
+MCV1,MRU,meru,2020,0
+MCV1,MRU,meru,2013,0
+MCV1,MRU,meru,2022,0
+MCV1,MRU,meru,2019,0
+MCV1,MRU,meru,2021,0
+MCV1,MIG,migori,2025,0
+MCV1,MIG,migori,2024,0
+MCV1,MIG,migori,2030,0
+MCV1,MIG,migori,2026,0
+MCV1,MIG,migori,2021,0
+MCV1,MIG,migori,2027,0
+MCV1,MIG,migori,2028,0
+MCV1,MIG,migori,2013,0
+MCV1,MIG,migori,2014,0
+MCV1,MIG,migori,2015,0
+MCV1,MIG,migori,2016,0
+MCV1,MIG,migori,2017,0
+MCV1,MIG,migori,2018,0
+MCV1,MIG,migori,2019,0
+MCV1,MIG,migori,2020,0
+MCV1,MIG,migori,2029,0
+MCV1,MIG,migori,2022,0
+MCV1,MIG,migori,2023,0
+MCV1,MSA,mombasa,2013,0
+MCV1,MSA,mombasa,2014,0
+MCV1,MSA,mombasa,2015,0
+MCV1,MSA,mombasa,2018,0
+MCV1,MSA,mombasa,2019,0
+MCV1,MSA,mombasa,2020,0
+MCV1,MSA,mombasa,2021,0
+MCV1,MSA,mombasa,2022,0
+MCV1,MSA,mombasa,2023,0
+MCV1,MSA,mombasa,2029,0
+MCV1,MSA,mombasa,2025,0
+MCV1,MSA,mombasa,2026,0
+MCV1,MSA,mombasa,2027,0
+MCV1,MSA,mombasa,2017,0
+MCV1,MSA,mombasa,2024,0
+MCV1,MSA,mombasa,2028,0
+MCV1,MSA,mombasa,2016,0
+MCV1,MSA,mombasa,2030,0
+MCV1,MGA,murang'a,2013,0
+MCV1,MGA,murang'a,2018,0
+MCV1,MGA,murang'a,2015,0
+MCV1,MGA,murang'a,2023,0
+MCV1,MGA,murang'a,2017,0
+MCV1,MGA,murang'a,2019,0
+MCV1,MGA,murang'a,2022,0
+MCV1,MGA,murang'a,2016,0
+MCV1,MGA,murang'a,2026,0
+MCV1,MGA,murang'a,2029,0
+MCV1,MGA,murang'a,2014,0
+MCV1,MGA,murang'a,2030,0
+MCV1,MGA,murang'a,2025,0
+MCV1,MGA,murang'a,2027,0
+MCV1,MGA,murang'a,2020,0
+MCV1,MGA,murang'a,2024,0
+MCV1,MGA,murang'a,2021,0
+MCV1,MGA,murang'a,2028,0
+MCV1,NBO,nairobi,2014,0
+MCV1,NBO,nairobi,2019,0
+MCV1,NBO,nairobi,2020,0
+MCV1,NBO,nairobi,2026,0
+MCV1,NBO,nairobi,2018,0
+MCV1,NBO,nairobi,2015,0
+MCV1,NBO,nairobi,2013,0
+MCV1,NBO,nairobi,2030,0
+MCV1,NBO,nairobi,2025,0
+MCV1,NBO,nairobi,2029,0
+MCV1,NBO,nairobi,2021,0
+MCV1,NBO,nairobi,2024,0
+MCV1,NBO,nairobi,2028,0
+MCV1,NBO,nairobi,2016,0
+MCV1,NBO,nairobi,2027,0
+MCV1,NBO,nairobi,2022,0
+MCV1,NBO,nairobi,2023,0
+MCV1,NBO,nairobi,2017,0
+MCV1,NKU,nakuru,2016,0
+MCV1,NKU,nakuru,2023,0
+MCV1,NKU,nakuru,2015,0
+MCV1,NKU,nakuru,2026,0
+MCV1,NKU,nakuru,2017,0
+MCV1,NKU,nakuru,2018,0
+MCV1,NKU,nakuru,2027,0
+MCV1,NKU,nakuru,2030,0
+MCV1,NKU,nakuru,2025,0
+MCV1,NKU,nakuru,2022,0
+MCV1,NKU,nakuru,2024,0
+MCV1,NKU,nakuru,2029,0
+MCV1,NKU,nakuru,2014,0
+MCV1,NKU,nakuru,2020,0
+MCV1,NKU,nakuru,2021,0
+MCV1,NKU,nakuru,2028,0
+MCV1,NKU,nakuru,2013,0
+MCV1,NKU,nakuru,2019,0
+MCV1,NDI,nandi,2020,0
+MCV1,NDI,nandi,2013,0
+MCV1,NDI,nandi,2019,0
+MCV1,NDI,nandi,2030,0
+MCV1,NDI,nandi,2026,0
+MCV1,NDI,nandi,2021,0
+MCV1,NDI,nandi,2027,0
+MCV1,NDI,nandi,2018,0
+MCV1,NDI,nandi,2025,0
+MCV1,NDI,nandi,2017,0
+MCV1,NDI,nandi,2029,0
+MCV1,NDI,nandi,2028,0
+MCV1,NDI,nandi,2023,0
+MCV1,NDI,nandi,2024,0
+MCV1,NDI,nandi,2022,0
+MCV1,NDI,nandi,2016,0
+MCV1,NDI,nandi,2014,0
+MCV1,NDI,nandi,2015,0
+MCV1,ROK,narok,2030,0
+MCV1,ROK,narok,2016,0
+MCV1,ROK,narok,2024,0
+MCV1,ROK,narok,2023,0
+MCV1,ROK,narok,2013,0
+MCV1,ROK,narok,2026,0
+MCV1,ROK,narok,2017,0
+MCV1,ROK,narok,2015,0
+MCV1,ROK,narok,2027,0
+MCV1,ROK,narok,2014,0
+MCV1,ROK,narok,2025,0
+MCV1,ROK,narok,2029,0
+MCV1,ROK,narok,2028,0
+MCV1,ROK,narok,2022,0
+MCV1,ROK,narok,2018,0
+MCV1,ROK,narok,2019,0
+MCV1,ROK,narok,2020,0
+MCV1,ROK,narok,2021,0
+MCV1,NYA,nyamira,2013,0
+MCV1,NYA,nyamira,2030,0
+MCV1,NYA,nyamira,2014,0
+MCV1,NYA,nyamira,2015,0
+MCV1,NYA,nyamira,2016,0
+MCV1,NYA,nyamira,2017,0
+MCV1,NYA,nyamira,2018,0
+MCV1,NYA,nyamira,2029,0
+MCV1,NYA,nyamira,2028,0
+MCV1,NYA,nyamira,2019,0
+MCV1,NYA,nyamira,2026,0
+MCV1,NYA,nyamira,2021,0
+MCV1,NYA,nyamira,2025,0
+MCV1,NYA,nyamira,2023,0
+MCV1,NYA,nyamira,2020,0
+MCV1,NYA,nyamira,2024,0
+MCV1,NYA,nyamira,2022,0
+MCV1,NYA,nyamira,2027,0
+MCV1,NDR,nyandarua,2015,0
+MCV1,NDR,nyandarua,2019,0
+MCV1,NDR,nyandarua,2017,0
+MCV1,NDR,nyandarua,2018,0
+MCV1,NDR,nyandarua,2013,0
+MCV1,NDR,nyandarua,2030,0
+MCV1,NDR,nyandarua,2016,0
+MCV1,NDR,nyandarua,2026,0
+MCV1,NDR,nyandarua,2022,0
+MCV1,NDR,nyandarua,2020,0
+MCV1,NDR,nyandarua,2027,0
+MCV1,NDR,nyandarua,2021,0
+MCV1,NDR,nyandarua,2028,0
+MCV1,NDR,nyandarua,2014,0
+MCV1,NDR,nyandarua,2024,0
+MCV1,NDR,nyandarua,2023,0
+MCV1,NDR,nyandarua,2029,0
+MCV1,NDR,nyandarua,2025,0
+MCV1,YRI,nyeri,2021,0
+MCV1,YRI,nyeri,2020,0
+MCV1,YRI,nyeri,2016,0
+MCV1,YRI,nyeri,2015,0
+MCV1,YRI,nyeri,2030,0
+MCV1,YRI,nyeri,2022,0
+MCV1,YRI,nyeri,2027,0
+MCV1,YRI,nyeri,2023,0
+MCV1,YRI,nyeri,2026,0
+MCV1,YRI,nyeri,2014,0
+MCV1,YRI,nyeri,2013,0
+MCV1,YRI,nyeri,2019,0
+MCV1,YRI,nyeri,2024,0
+MCV1,YRI,nyeri,2028,0
+MCV1,YRI,nyeri,2018,0
+MCV1,YRI,nyeri,2029,0
+MCV1,YRI,nyeri,2017,0
+MCV1,YRI,nyeri,2025,0
+MCV1,SMB,samburu,2030,0
+MCV1,SMB,samburu,2026,0
+MCV1,SMB,samburu,2016,0
+MCV1,SMB,samburu,2023,0
+MCV1,SMB,samburu,2018,0
+MCV1,SMB,samburu,2015,0
+MCV1,SMB,samburu,2027,0
+MCV1,SMB,samburu,2017,0
+MCV1,SMB,samburu,2021,0
+MCV1,SMB,samburu,2024,0
+MCV1,SMB,samburu,2025,0
+MCV1,SMB,samburu,2022,0
+MCV1,SMB,samburu,2028,0
+MCV1,SMB,samburu,2019,0
+MCV1,SMB,samburu,2020,0
+MCV1,SMB,samburu,2029,0
+MCV1,SMB,samburu,2014,0
+MCV1,SMB,samburu,2013,0
+MCV1,SIA,siaya,2013,0
+MCV1,SIA,siaya,2014,0
+MCV1,SIA,siaya,2020,0
+MCV1,SIA,siaya,2021,0
+MCV1,SIA,siaya,2028,0
+MCV1,SIA,siaya,2019,0
+MCV1,SIA,siaya,2029,0
+MCV1,SIA,siaya,2030,0
+MCV1,SIA,siaya,2015,0
+MCV1,SIA,siaya,2026,0
+MCV1,SIA,siaya,2016,0
+MCV1,SIA,siaya,2027,0
+MCV1,SIA,siaya,2018,0
+MCV1,SIA,siaya,2024,0
+MCV1,SIA,siaya,2023,0
+MCV1,SIA,siaya,2025,0
+MCV1,SIA,siaya,2022,0
+MCV1,SIA,siaya,2017,0
+MCV1,TTA,taita taveta,2030,0
+MCV1,TTA,taita taveta,2016,0
+MCV1,TTA,taita taveta,2023,0
+MCV1,TTA,taita taveta,2028,0
+MCV1,TTA,taita taveta,2015,0
+MCV1,TTA,taita taveta,2026,0
+MCV1,TTA,taita taveta,2022,0
+MCV1,TTA,taita taveta,2027,0
+MCV1,TTA,taita taveta,2029,0
+MCV1,TTA,taita taveta,2014,0
+MCV1,TTA,taita taveta,2018,0
+MCV1,TTA,taita taveta,2025,0
+MCV1,TTA,taita taveta,2024,0
+MCV1,TTA,taita taveta,2013,0
+MCV1,TTA,taita taveta,2019,0
+MCV1,TTA,taita taveta,2021,0
+MCV1,TTA,taita taveta,2017,0
+MCV1,TTA,taita taveta,2020,0
+MCV1,TRI,tana river,2024,0
+MCV1,TRI,tana river,2013,0
+MCV1,TRI,tana river,2020,0
+MCV1,TRI,tana river,2027,0
+MCV1,TRI,tana river,2019,0
+MCV1,TRI,tana river,2028,0
+MCV1,TRI,tana river,2030,0
+MCV1,TRI,tana river,2025,0
+MCV1,TRI,tana river,2016,0
+MCV1,TRI,tana river,2017,0
+MCV1,TRI,tana river,2014,0
+MCV1,TRI,tana river,2015,0
+MCV1,TRI,tana river,2026,0
+MCV1,TRI,tana river,2021,0
+MCV1,TRI,tana river,2018,0
+MCV1,TRI,tana river,2023,0
+MCV1,TRI,tana river,2022,0
+MCV1,TRI,tana river,2029,0
+MCV1,TNI,tharaka-nithi,2025,0
+MCV1,TNI,tharaka-nithi,2027,0
+MCV1,TNI,tharaka-nithi,2013,0
+MCV1,TNI,tharaka-nithi,2014,0
+MCV1,TNI,tharaka-nithi,2015,0
+MCV1,TNI,tharaka-nithi,2028,0
+MCV1,TNI,tharaka-nithi,2016,0
+MCV1,TNI,tharaka-nithi,2017,0
+MCV1,TNI,tharaka-nithi,2018,0
+MCV1,TNI,tharaka-nithi,2019,0
+MCV1,TNI,tharaka-nithi,2020,0
+MCV1,TNI,tharaka-nithi,2030,0
+MCV1,TNI,tharaka-nithi,2026,0
+MCV1,TNI,tharaka-nithi,2023,0
+MCV1,TNI,tharaka-nithi,2024,0
+MCV1,TNI,tharaka-nithi,2029,0
+MCV1,TNI,tharaka-nithi,2021,0
+MCV1,TNI,tharaka-nithi,2022,0
+MCV1,TZI,trans nzoia,2015,0
+MCV1,TZI,trans nzoia,2013,0
+MCV1,TZI,trans nzoia,2020,0
+MCV1,TZI,trans nzoia,2016,0
+MCV1,TZI,trans nzoia,2025,0
+MCV1,TZI,trans nzoia,2014,0
+MCV1,TZI,trans nzoia,2019,0
+MCV1,TZI,trans nzoia,2021,0
+MCV1,TZI,trans nzoia,2022,0
+MCV1,TZI,trans nzoia,2023,0
+MCV1,TZI,trans nzoia,2026,0
+MCV1,TZI,trans nzoia,2029,0
+MCV1,TZI,trans nzoia,2027,0
+MCV1,TZI,trans nzoia,2024,0
+MCV1,TZI,trans nzoia,2030,0
+MCV1,TZI,trans nzoia,2028,0
+MCV1,TZI,trans nzoia,2017,0
+MCV1,TZI,trans nzoia,2018,0
+MCV1,TRK,turkana,2013,0
+MCV1,TRK,turkana,2016,0
+MCV1,TRK,turkana,2017,0
+MCV1,TRK,turkana,2023,0
+MCV1,TRK,turkana,2027,0
+MCV1,TRK,turkana,2024,0
+MCV1,TRK,turkana,2018,0
+MCV1,TRK,turkana,2029,0
+MCV1,TRK,turkana,2028,0
+MCV1,TRK,turkana,2019,0
+MCV1,TRK,turkana,2026,0
+MCV1,TRK,turkana,2025,0
+MCV1,TRK,turkana,2021,0
+MCV1,TRK,turkana,2022,0
+MCV1,TRK,turkana,2015,0
+MCV1,TRK,turkana,2030,0
+MCV1,TRK,turkana,2020,0
+MCV1,TRK,turkana,2014,0
+MCV1,UAG,uasin gishu,2014,0
+MCV1,UAG,uasin gishu,2020,0
+MCV1,UAG,uasin gishu,2013,0
+MCV1,UAG,uasin gishu,2027,0
+MCV1,UAG,uasin gishu,2023,0
+MCV1,UAG,uasin gishu,2021,0
+MCV1,UAG,uasin gishu,2022,0
+MCV1,UAG,uasin gishu,2030,0
+MCV1,UAG,uasin gishu,2029,0
+MCV1,UAG,uasin gishu,2015,0
+MCV1,UAG,uasin gishu,2024,0
+MCV1,UAG,uasin gishu,2018,0
+MCV1,UAG,uasin gishu,2026,0
+MCV1,UAG,uasin gishu,2019,0
+MCV1,UAG,uasin gishu,2025,0
+MCV1,UAG,uasin gishu,2028,0
+MCV1,UAG,uasin gishu,2017,0
+MCV1,UAG,uasin gishu,2016,0
+MCV1,VGA,vihiga,2018,0
+MCV1,VGA,vihiga,2024,0
+MCV1,VGA,vihiga,2027,0
+MCV1,VGA,vihiga,2016,0
+MCV1,VGA,vihiga,2030,0
+MCV1,VGA,vihiga,2029,0
+MCV1,VGA,vihiga,2023,0
+MCV1,VGA,vihiga,2017,0
+MCV1,VGA,vihiga,2015,0
+MCV1,VGA,vihiga,2025,0
+MCV1,VGA,vihiga,2013,0
+MCV1,VGA,vihiga,2026,0
+MCV1,VGA,vihiga,2019,0
+MCV1,VGA,vihiga,2028,0
+MCV1,VGA,vihiga,2014,0
+MCV1,VGA,vihiga,2020,0
+MCV1,VGA,vihiga,2022,0
+MCV1,VGA,vihiga,2021,0
+MCV1,WJR,wajir,2021,0
+MCV1,WJR,wajir,2020,0
+MCV1,WJR,wajir,2029,0
+MCV1,WJR,wajir,2014,0
+MCV1,WJR,wajir,2030,0
+MCV1,WJR,wajir,2027,0
+MCV1,WJR,wajir,2013,0
+MCV1,WJR,wajir,2024,0
+MCV1,WJR,wajir,2025,0
+MCV1,WJR,wajir,2015,0
+MCV1,WJR,wajir,2016,0
+MCV1,WJR,wajir,2017,0
+MCV1,WJR,wajir,2018,0
+MCV1,WJR,wajir,2019,0
+MCV1,WJR,wajir,2028,0
+MCV1,WJR,wajir,2026,0
+MCV1,WJR,wajir,2022,0
+MCV1,WJR,wajir,2023,0
+MCV1,WPO,west pokot,2027,0
+MCV1,WPO,west pokot,2016,0
+MCV1,WPO,west pokot,2024,0
+MCV1,WPO,west pokot,2023,0
+MCV1,WPO,west pokot,2025,0
+MCV1,WPO,west pokot,2018,0
+MCV1,WPO,west pokot,2019,0
+MCV1,WPO,west pokot,2026,0
+MCV1,WPO,west pokot,2017,0
+MCV1,WPO,west pokot,2022,0
+MCV1,WPO,west pokot,2029,0
+MCV1,WPO,west pokot,2020,0
+MCV1,WPO,west pokot,2021,0
+MCV1,WPO,west pokot,2013,0
+MCV1,WPO,west pokot,2014,0
+MCV1,WPO,west pokot,2015,0
+MCV1,WPO,west pokot,2028,0
+MCV1,WPO,west pokot,2030,0
+MCV2,BAR,baringo,2013,0
+MCV2,BAR,baringo,2014,0
+MCV2,BAR,baringo,2015,0
+MCV2,BAR,baringo,2016,0
+MCV2,BAR,baringo,2017,0
+MCV2,BAR,baringo,2018,0
+MCV2,BAR,baringo,2019,0
+MCV2,BAR,baringo,2020,0
+MCV2,BAR,baringo,2021,0
+MCV2,BAR,baringo,2022,0
+MCV2,BAR,baringo,2023,0
+MCV2,BAR,baringo,2028,0
+MCV2,BAR,baringo,2027,0
+MCV2,BAR,baringo,2025,0
+MCV2,BAR,baringo,2026,0
+MCV2,BAR,baringo,2029,0
+MCV2,BAR,baringo,2024,0
+MCV2,BAR,baringo,2030,0
+MCV2,BOM,bomet,2013,0
+MCV2,BOM,bomet,2017,0
+MCV2,BOM,bomet,2014,0
+MCV2,BOM,bomet,2021,0
+MCV2,BOM,bomet,2018,0
+MCV2,BOM,bomet,2016,0
+MCV2,BOM,bomet,2025,0
+MCV2,BOM,bomet,2019,0
+MCV2,BOM,bomet,2020,0
+MCV2,BOM,bomet,2028,0
+MCV2,BOM,bomet,2029,0
+MCV2,BOM,bomet,2027,0
+MCV2,BOM,bomet,2026,0
+MCV2,BOM,bomet,2023,0
+MCV2,BOM,bomet,2030,0
+MCV2,BOM,bomet,2015,0
+MCV2,BOM,bomet,2024,0
+MCV2,BOM,bomet,2022,0
+MCV2,BMA,bungoma,2021,0
+MCV2,BMA,bungoma,2014,0
+MCV2,BMA,bungoma,2025,0
+MCV2,BMA,bungoma,2022,0
+MCV2,BMA,bungoma,2015,0
+MCV2,BMA,bungoma,2016,0
+MCV2,BMA,bungoma,2019,0
+MCV2,BMA,bungoma,2029,0
+MCV2,BMA,bungoma,2023,0
+MCV2,BMA,bungoma,2020,0
+MCV2,BMA,bungoma,2030,0
+MCV2,BMA,bungoma,2027,0
+MCV2,BMA,bungoma,2026,0
+MCV2,BMA,bungoma,2028,0
+MCV2,BMA,bungoma,2024,0
+MCV2,BMA,bungoma,2017,0
+MCV2,BMA,bungoma,2018,0
+MCV2,BMA,bungoma,2013,0
+MCV2,BSA,busia,2018,0
+MCV2,BSA,busia,2019,0
+MCV2,BSA,busia,2029,0
+MCV2,BSA,busia,2017,0
+MCV2,BSA,busia,2026,0
+MCV2,BSA,busia,2024,0
+MCV2,BSA,busia,2023,0
+MCV2,BSA,busia,2025,0
+MCV2,BSA,busia,2022,0
+MCV2,BSA,busia,2028,0
+MCV2,BSA,busia,2015,0
+MCV2,BSA,busia,2027,0
+MCV2,BSA,busia,2016,0
+MCV2,BSA,busia,2030,0
+MCV2,BSA,busia,2021,0
+MCV2,BSA,busia,2020,0
+MCV2,BSA,busia,2014,0
+MCV2,BSA,busia,2013,0
+MCV2,ELM,elgeyo-marakwet,2015,0
+MCV2,ELM,elgeyo-marakwet,2029,0
+MCV2,ELM,elgeyo-marakwet,2025,0
+MCV2,ELM,elgeyo-marakwet,2013,0
+MCV2,ELM,elgeyo-marakwet,2027,0
+MCV2,ELM,elgeyo-marakwet,2014,0
+MCV2,ELM,elgeyo-marakwet,2026,0
+MCV2,ELM,elgeyo-marakwet,2016,0
+MCV2,ELM,elgeyo-marakwet,2021,0
+MCV2,ELM,elgeyo-marakwet,2024,0
+MCV2,ELM,elgeyo-marakwet,2028,0
+MCV2,ELM,elgeyo-marakwet,2030,0
+MCV2,ELM,elgeyo-marakwet,2020,0
+MCV2,ELM,elgeyo-marakwet,2022,0
+MCV2,ELM,elgeyo-marakwet,2023,0
+MCV2,ELM,elgeyo-marakwet,2017,0
+MCV2,ELM,elgeyo-marakwet,2018,0
+MCV2,ELM,elgeyo-marakwet,2019,0
+MCV2,MBU,embu,2029,0
+MCV2,MBU,embu,2016,0
+MCV2,MBU,embu,2028,0
+MCV2,MBU,embu,2025,0
+MCV2,MBU,embu,2024,0
+MCV2,MBU,embu,2017,0
+MCV2,MBU,embu,2013,0
+MCV2,MBU,embu,2014,0
+MCV2,MBU,embu,2027,0
+MCV2,MBU,embu,2026,0
+MCV2,MBU,embu,2018,0
+MCV2,MBU,embu,2030,0
+MCV2,MBU,embu,2015,0
+MCV2,MBU,embu,2020,0
+MCV2,MBU,embu,2023,0
+MCV2,MBU,embu,2022,0
+MCV2,MBU,embu,2019,0
+MCV2,MBU,embu,2021,0
+MCV2,GSA,garissa,2025,0
+MCV2,GSA,garissa,2026,0
+MCV2,GSA,garissa,2028,0
+MCV2,GSA,garissa,2014,0
+MCV2,GSA,garissa,2015,0
+MCV2,GSA,garissa,2016,0
+MCV2,GSA,garissa,2017,0
+MCV2,GSA,garissa,2018,0
+MCV2,GSA,garissa,2019,0
+MCV2,GSA,garissa,2029,0
+MCV2,GSA,garissa,2013,0
+MCV2,GSA,garissa,2030,0
+MCV2,GSA,garissa,2024,0
+MCV2,GSA,garissa,2021,0
+MCV2,GSA,garissa,2022,0
+MCV2,GSA,garissa,2027,0
+MCV2,GSA,garissa,2020,0
+MCV2,GSA,garissa,2023,0
+MCV2,HBA,homa bay,2024,0
+MCV2,HBA,homa bay,2017,0
+MCV2,HBA,homa bay,2019,0
+MCV2,HBA,homa bay,2020,0
+MCV2,HBA,homa bay,2021,0
+MCV2,HBA,homa bay,2018,0
+MCV2,HBA,homa bay,2013,0
+MCV2,HBA,homa bay,2014,0
+MCV2,HBA,homa bay,2026,0
+MCV2,HBA,homa bay,2016,0
+MCV2,HBA,homa bay,2030,0
+MCV2,HBA,homa bay,2025,0
+MCV2,HBA,homa bay,2027,0
+MCV2,HBA,homa bay,2029,0
+MCV2,HBA,homa bay,2023,0
+MCV2,HBA,homa bay,2028,0
+MCV2,HBA,homa bay,2015,0
+MCV2,HBA,homa bay,2022,0
+MCV2,ISO,isiolo,2022,0
+MCV2,ISO,isiolo,2023,0
+MCV2,ISO,isiolo,2017,0
+MCV2,ISO,isiolo,2014,0
+MCV2,ISO,isiolo,2016,0
+MCV2,ISO,isiolo,2021,0
+MCV2,ISO,isiolo,2018,0
+MCV2,ISO,isiolo,2027,0
+MCV2,ISO,isiolo,2020,0
+MCV2,ISO,isiolo,2029,0
+MCV2,ISO,isiolo,2030,0
+MCV2,ISO,isiolo,2024,0
+MCV2,ISO,isiolo,2015,0
+MCV2,ISO,isiolo,2028,0
+MCV2,ISO,isiolo,2026,0
+MCV2,ISO,isiolo,2013,0
+MCV2,ISO,isiolo,2025,0
+MCV2,ISO,isiolo,2019,0
+MCV2,KJD,kajiado,2013,0
+MCV2,KJD,kajiado,2030,0
+MCV2,KJD,kajiado,2024,0
+MCV2,KJD,kajiado,2014,0
+MCV2,KJD,kajiado,2018,0
+MCV2,KJD,kajiado,2019,0
+MCV2,KJD,kajiado,2028,0
+MCV2,KJD,kajiado,2026,0
+MCV2,KJD,kajiado,2017,0
+MCV2,KJD,kajiado,2029,0
+MCV2,KJD,kajiado,2021,0
+MCV2,KJD,kajiado,2027,0
+MCV2,KJD,kajiado,2023,0
+MCV2,KJD,kajiado,2016,0
+MCV2,KJD,kajiado,2022,0
+MCV2,KJD,kajiado,2025,0
+MCV2,KJD,kajiado,2020,0
+MCV2,KJD,kajiado,2015,0
+MCV2,KKM,kakamega,2016,0
+MCV2,KKM,kakamega,2030,0
+MCV2,KKM,kakamega,2015,0
+MCV2,KKM,kakamega,2022,0
+MCV2,KKM,kakamega,2028,0
+MCV2,KKM,kakamega,2021,0
+MCV2,KKM,kakamega,2014,0
+MCV2,KKM,kakamega,2029,0
+MCV2,KKM,kakamega,2025,0
+MCV2,KKM,kakamega,2020,0
+MCV2,KKM,kakamega,2026,0
+MCV2,KKM,kakamega,2024,0
+MCV2,KKM,kakamega,2023,0
+MCV2,KKM,kakamega,2027,0
+MCV2,KKM,kakamega,2017,0
+MCV2,KKM,kakamega,2013,0
+MCV2,KKM,kakamega,2018,0
+MCV2,KKM,kakamega,2019,0
+MCV2,KCH,kericho,2030,0
+MCV2,KCH,kericho,2028,0
+MCV2,KCH,kericho,2017,0
+MCV2,KCH,kericho,2024,0
+MCV2,KCH,kericho,2018,0
+MCV2,KCH,kericho,2023,0
+MCV2,KCH,kericho,2026,0
+MCV2,KCH,kericho,2013,0
+MCV2,KCH,kericho,2025,0
+MCV2,KCH,kericho,2027,0
+MCV2,KCH,kericho,2019,0
+MCV2,KCH,kericho,2016,0
+MCV2,KCH,kericho,2020,0
+MCV2,KCH,kericho,2021,0
+MCV2,KCH,kericho,2014,0
+MCV2,KCH,kericho,2029,0
+MCV2,KCH,kericho,2022,0
+MCV2,KCH,kericho,2015,0
+MCV2,KIA,kiambu,2021,0
+MCV2,KIA,kiambu,2030,0
+MCV2,KIA,kiambu,2014,0
+MCV2,KIA,kiambu,2015,0
+MCV2,KIA,kiambu,2025,0
+MCV2,KIA,kiambu,2022,0
+MCV2,KIA,kiambu,2020,0
+MCV2,KIA,kiambu,2028,0
+MCV2,KIA,kiambu,2026,0
+MCV2,KIA,kiambu,2027,0
+MCV2,KIA,kiambu,2013,0
+MCV2,KIA,kiambu,2029,0
+MCV2,KIA,kiambu,2019,0
+MCV2,KIA,kiambu,2016,0
+MCV2,KIA,kiambu,2017,0
+MCV2,KIA,kiambu,2018,0
+MCV2,KIA,kiambu,2024,0
+MCV2,KIA,kiambu,2023,0
+MCV2,KIF,kilifi,2017,0
+MCV2,KIF,kilifi,2028,0
+MCV2,KIF,kilifi,2013,0
+MCV2,KIF,kilifi,2014,0
+MCV2,KIF,kilifi,2015,0
+MCV2,KIF,kilifi,2016,0
+MCV2,KIF,kilifi,2027,0
+MCV2,KIF,kilifi,2029,0
+MCV2,KIF,kilifi,2018,0
+MCV2,KIF,kilifi,2019,0
+MCV2,KIF,kilifi,2020,0
+MCV2,KIF,kilifi,2021,0
+MCV2,KIF,kilifi,2022,0
+MCV2,KIF,kilifi,2024,0
+MCV2,KIF,kilifi,2030,0
+MCV2,KIF,kilifi,2026,0
+MCV2,KIF,kilifi,2025,0
+MCV2,KIF,kilifi,2023,0
+MCV2,KGA,kirinyaga,2014,0
+MCV2,KGA,kirinyaga,2015,0
+MCV2,KGA,kirinyaga,2030,0
+MCV2,KGA,kirinyaga,2025,0
+MCV2,KGA,kirinyaga,2020,0
+MCV2,KGA,kirinyaga,2016,0
+MCV2,KGA,kirinyaga,2013,0
+MCV2,KGA,kirinyaga,2023,0
+MCV2,KGA,kirinyaga,2027,0
+MCV2,KGA,kirinyaga,2021,0
+MCV2,KGA,kirinyaga,2022,0
+MCV2,KGA,kirinyaga,2017,0
+MCV2,KGA,kirinyaga,2024,0
+MCV2,KGA,kirinyaga,2018,0
+MCV2,KGA,kirinyaga,2026,0
+MCV2,KGA,kirinyaga,2029,0
+MCV2,KGA,kirinyaga,2019,0
+MCV2,KGA,kirinyaga,2028,0
+MCV2,KIS,kisii,2013,0
+MCV2,KIS,kisii,2020,0
+MCV2,KIS,kisii,2019,0
+MCV2,KIS,kisii,2025,0
+MCV2,KIS,kisii,2021,0
+MCV2,KIS,kisii,2018,0
+MCV2,KIS,kisii,2029,0
+MCV2,KIS,kisii,2024,0
+MCV2,KIS,kisii,2030,0
+MCV2,KIS,kisii,2023,0
+MCV2,KIS,kisii,2026,0
+MCV2,KIS,kisii,2017,0
+MCV2,KIS,kisii,2027,0
+MCV2,KIS,kisii,2014,0
+MCV2,KIS,kisii,2028,0
+MCV2,KIS,kisii,2022,0
+MCV2,KIS,kisii,2015,0
+MCV2,KIS,kisii,2016,0
+MCV2,KSU,kisumu,2023,0
+MCV2,KSU,kisumu,2016,0
+MCV2,KSU,kisumu,2014,0
+MCV2,KSU,kisumu,2015,0
+MCV2,KSU,kisumu,2030,0
+MCV2,KSU,kisumu,2013,0
+MCV2,KSU,kisumu,2029,0
+MCV2,KSU,kisumu,2022,0
+MCV2,KSU,kisumu,2025,0
+MCV2,KSU,kisumu,2017,0
+MCV2,KSU,kisumu,2028,0
+MCV2,KSU,kisumu,2021,0
+MCV2,KSU,kisumu,2024,0
+MCV2,KSU,kisumu,2027,0
+MCV2,KSU,kisumu,2018,0
+MCV2,KSU,kisumu,2026,0
+MCV2,KSU,kisumu,2020,0
+MCV2,KSU,kisumu,2019,0
+MCV2,KTU,kitui,2018,0
+MCV2,KTU,kitui,2023,0
+MCV2,KTU,kitui,2019,0
+MCV2,KTU,kitui,2029,0
+MCV2,KTU,kitui,2017,0
+MCV2,KTU,kitui,2025,0
+MCV2,KTU,kitui,2013,0
+MCV2,KTU,kitui,2030,0
+MCV2,KTU,kitui,2026,0
+MCV2,KTU,kitui,2015,0
+MCV2,KTU,kitui,2027,0
+MCV2,KTU,kitui,2024,0
+MCV2,KTU,kitui,2014,0
+MCV2,KTU,kitui,2028,0
+MCV2,KTU,kitui,2016,0
+MCV2,KTU,kitui,2021,0
+MCV2,KTU,kitui,2020,0
+MCV2,KTU,kitui,2022,0
+MCV2,KLE,kwale,2027,0
+MCV2,KLE,kwale,2014,0
+MCV2,KLE,kwale,2015,0
+MCV2,KLE,kwale,2029,0
+MCV2,KLE,kwale,2030,0
+MCV2,KLE,kwale,2025,0
+MCV2,KLE,kwale,2018,0
+MCV2,KLE,kwale,2024,0
+MCV2,KLE,kwale,2013,0
+MCV2,KLE,kwale,2016,0
+MCV2,KLE,kwale,2017,0
+MCV2,KLE,kwale,2019,0
+MCV2,KLE,kwale,2026,0
+MCV2,KLE,kwale,2020,0
+MCV2,KLE,kwale,2021,0
+MCV2,KLE,kwale,2022,0
+MCV2,KLE,kwale,2028,0
+MCV2,KLE,kwale,2023,0
+MCV2,LKP,laikipia,2018,0
+MCV2,LKP,laikipia,2017,0
+MCV2,LKP,laikipia,2025,0
+MCV2,LKP,laikipia,2019,0
+MCV2,LKP,laikipia,2026,0
+MCV2,LKP,laikipia,2028,0
+MCV2,LKP,laikipia,2027,0
+MCV2,LKP,laikipia,2024,0
+MCV2,LKP,laikipia,2020,0
+MCV2,LKP,laikipia,2021,0
+MCV2,LKP,laikipia,2016,0
+MCV2,LKP,laikipia,2030,0
+MCV2,LKP,laikipia,2013,0
+MCV2,LKP,laikipia,2014,0
+MCV2,LKP,laikipia,2022,0
+MCV2,LKP,laikipia,2023,0
+MCV2,LKP,laikipia,2015,0
+MCV2,LKP,laikipia,2029,0
+MCV2,LMU,lamu,2013,0
+MCV2,LMU,lamu,2014,0
+MCV2,LMU,lamu,2021,0
+MCV2,LMU,lamu,2022,0
+MCV2,LMU,lamu,2023,0
+MCV2,LMU,lamu,2020,0
+MCV2,LMU,lamu,2016,0
+MCV2,LMU,lamu,2017,0
+MCV2,LMU,lamu,2018,0
+MCV2,LMU,lamu,2019,0
+MCV2,LMU,lamu,2028,0
+MCV2,LMU,lamu,2025,0
+MCV2,LMU,lamu,2024,0
+MCV2,LMU,lamu,2030,0
+MCV2,LMU,lamu,2015,0
+MCV2,LMU,lamu,2027,0
+MCV2,LMU,lamu,2026,0
+MCV2,LMU,lamu,2029,0
+MCV2,MCH,machakos,2015,0
+MCV2,MCH,machakos,2014,0
+MCV2,MCH,machakos,2028,0
+MCV2,MCH,machakos,2016,0
+MCV2,MCH,machakos,2030,0
+MCV2,MCH,machakos,2021,0
+MCV2,MCH,machakos,2025,0
+MCV2,MCH,machakos,2013,0
+MCV2,MCH,machakos,2020,0
+MCV2,MCH,machakos,2026,0
+MCV2,MCH,machakos,2022,0
+MCV2,MCH,machakos,2019,0
+MCV2,MCH,machakos,2024,0
+MCV2,MCH,machakos,2017,0
+MCV2,MCH,machakos,2018,0
+MCV2,MCH,machakos,2027,0
+MCV2,MCH,machakos,2023,0
+MCV2,MCH,machakos,2029,0
+MCV2,MKU,makueni,2017,0
+MCV2,MKU,makueni,2016,0
+MCV2,MKU,makueni,2030,0
+MCV2,MKU,makueni,2018,0
+MCV2,MKU,makueni,2024,0
+MCV2,MKU,makueni,2023,0
+MCV2,MKU,makueni,2028,0
+MCV2,MKU,makueni,2022,0
+MCV2,MKU,makueni,2026,0
+MCV2,MKU,makueni,2015,0
+MCV2,MKU,makueni,2013,0
+MCV2,MKU,makueni,2025,0
+MCV2,MKU,makueni,2027,0
+MCV2,MKU,makueni,2029,0
+MCV2,MKU,makueni,2014,0
+MCV2,MKU,makueni,2020,0
+MCV2,MKU,makueni,2021,0
+MCV2,MKU,makueni,2019,0
+MCV2,MDR,mandera,2020,0
+MCV2,MDR,mandera,2021,0
+MCV2,MDR,mandera,2024,0
+MCV2,MDR,mandera,2030,0
+MCV2,MDR,mandera,2019,0
+MCV2,MDR,mandera,2018,0
+MCV2,MDR,mandera,2014,0
+MCV2,MDR,mandera,2013,0
+MCV2,MDR,mandera,2029,0
+MCV2,MDR,mandera,2028,0
+MCV2,MDR,mandera,2017,0
+MCV2,MDR,mandera,2027,0
+MCV2,MDR,mandera,2025,0
+MCV2,MDR,mandera,2026,0
+MCV2,MDR,mandera,2016,0
+MCV2,MDR,mandera,2022,0
+MCV2,MDR,mandera,2023,0
+MCV2,MDR,mandera,2015,0
+MCV2,MRS,marsabit,2023,0
+MCV2,MRS,marsabit,2026,0
+MCV2,MRS,marsabit,2016,0
+MCV2,MRS,marsabit,2025,0
+MCV2,MRS,marsabit,2022,0
+MCV2,MRS,marsabit,2024,0
+MCV2,MRS,marsabit,2030,0
+MCV2,MRS,marsabit,2015,0
+MCV2,MRS,marsabit,2027,0
+MCV2,MRS,marsabit,2021,0
+MCV2,MRS,marsabit,2020,0
+MCV2,MRS,marsabit,2013,0
+MCV2,MRS,marsabit,2014,0
+MCV2,MRS,marsabit,2029,0
+MCV2,MRS,marsabit,2019,0
+MCV2,MRS,marsabit,2028,0
+MCV2,MRS,marsabit,2017,0
+MCV2,MRS,marsabit,2018,0
+MCV2,MRU,meru,2026,0
+MCV2,MRU,meru,2030,0
+MCV2,MRU,meru,2025,0
+MCV2,MRU,meru,2018,0
+MCV2,MRU,meru,2017,0
+MCV2,MRU,meru,2024,0
+MCV2,MRU,meru,2023,0
+MCV2,MRU,meru,2027,0
+MCV2,MRU,meru,2029,0
+MCV2,MRU,meru,2016,0
+MCV2,MRU,meru,2028,0
+MCV2,MRU,meru,2014,0
+MCV2,MRU,meru,2015,0
+MCV2,MRU,meru,2020,0
+MCV2,MRU,meru,2013,0
+MCV2,MRU,meru,2022,0
+MCV2,MRU,meru,2019,0
+MCV2,MRU,meru,2021,0
+MCV2,MIG,migori,2025,0
+MCV2,MIG,migori,2024,0
+MCV2,MIG,migori,2030,0
+MCV2,MIG,migori,2026,0
+MCV2,MIG,migori,2021,0
+MCV2,MIG,migori,2027,0
+MCV2,MIG,migori,2028,0
+MCV2,MIG,migori,2013,0
+MCV2,MIG,migori,2014,0
+MCV2,MIG,migori,2015,0
+MCV2,MIG,migori,2016,0
+MCV2,MIG,migori,2017,0
+MCV2,MIG,migori,2018,0
+MCV2,MIG,migori,2019,0
+MCV2,MIG,migori,2020,0
+MCV2,MIG,migori,2029,0
+MCV2,MIG,migori,2022,0
+MCV2,MIG,migori,2023,0
+MCV2,MSA,mombasa,2013,0
+MCV2,MSA,mombasa,2014,0
+MCV2,MSA,mombasa,2015,0
+MCV2,MSA,mombasa,2018,0
+MCV2,MSA,mombasa,2019,0
+MCV2,MSA,mombasa,2020,0
+MCV2,MSA,mombasa,2021,0
+MCV2,MSA,mombasa,2022,0
+MCV2,MSA,mombasa,2023,0
+MCV2,MSA,mombasa,2029,0
+MCV2,MSA,mombasa,2025,0
+MCV2,MSA,mombasa,2026,0
+MCV2,MSA,mombasa,2027,0
+MCV2,MSA,mombasa,2017,0
+MCV2,MSA,mombasa,2024,0
+MCV2,MSA,mombasa,2028,0
+MCV2,MSA,mombasa,2016,0
+MCV2,MSA,mombasa,2030,0
+MCV2,MGA,murang'a,2013,0
+MCV2,MGA,murang'a,2018,0
+MCV2,MGA,murang'a,2015,0
+MCV2,MGA,murang'a,2023,0
+MCV2,MGA,murang'a,2017,0
+MCV2,MGA,murang'a,2019,0
+MCV2,MGA,murang'a,2022,0
+MCV2,MGA,murang'a,2016,0
+MCV2,MGA,murang'a,2026,0
+MCV2,MGA,murang'a,2029,0
+MCV2,MGA,murang'a,2014,0
+MCV2,MGA,murang'a,2030,0
+MCV2,MGA,murang'a,2025,0
+MCV2,MGA,murang'a,2027,0
+MCV2,MGA,murang'a,2020,0
+MCV2,MGA,murang'a,2024,0
+MCV2,MGA,murang'a,2021,0
+MCV2,MGA,murang'a,2028,0
+MCV2,NBO,nairobi,2014,0
+MCV2,NBO,nairobi,2019,0
+MCV2,NBO,nairobi,2020,0
+MCV2,NBO,nairobi,2026,0
+MCV2,NBO,nairobi,2018,0
+MCV2,NBO,nairobi,2015,0
+MCV2,NBO,nairobi,2013,0
+MCV2,NBO,nairobi,2030,0
+MCV2,NBO,nairobi,2025,0
+MCV2,NBO,nairobi,2029,0
+MCV2,NBO,nairobi,2021,0
+MCV2,NBO,nairobi,2024,0
+MCV2,NBO,nairobi,2028,0
+MCV2,NBO,nairobi,2016,0
+MCV2,NBO,nairobi,2027,0
+MCV2,NBO,nairobi,2022,0
+MCV2,NBO,nairobi,2023,0
+MCV2,NBO,nairobi,2017,0
+MCV2,NKU,nakuru,2016,0
+MCV2,NKU,nakuru,2023,0
+MCV2,NKU,nakuru,2015,0
+MCV2,NKU,nakuru,2026,0
+MCV2,NKU,nakuru,2017,0
+MCV2,NKU,nakuru,2018,0
+MCV2,NKU,nakuru,2027,0
+MCV2,NKU,nakuru,2030,0
+MCV2,NKU,nakuru,2025,0
+MCV2,NKU,nakuru,2022,0
+MCV2,NKU,nakuru,2024,0
+MCV2,NKU,nakuru,2029,0
+MCV2,NKU,nakuru,2014,0
+MCV2,NKU,nakuru,2020,0
+MCV2,NKU,nakuru,2021,0
+MCV2,NKU,nakuru,2028,0
+MCV2,NKU,nakuru,2013,0
+MCV2,NKU,nakuru,2019,0
+MCV2,NDI,nandi,2020,0
+MCV2,NDI,nandi,2013,0
+MCV2,NDI,nandi,2019,0
+MCV2,NDI,nandi,2030,0
+MCV2,NDI,nandi,2026,0
+MCV2,NDI,nandi,2021,0
+MCV2,NDI,nandi,2027,0
+MCV2,NDI,nandi,2018,0
+MCV2,NDI,nandi,2025,0
+MCV2,NDI,nandi,2017,0
+MCV2,NDI,nandi,2029,0
+MCV2,NDI,nandi,2028,0
+MCV2,NDI,nandi,2023,0
+MCV2,NDI,nandi,2024,0
+MCV2,NDI,nandi,2022,0
+MCV2,NDI,nandi,2016,0
+MCV2,NDI,nandi,2014,0
+MCV2,NDI,nandi,2015,0
+MCV2,ROK,narok,2030,0
+MCV2,ROK,narok,2016,0
+MCV2,ROK,narok,2024,0
+MCV2,ROK,narok,2023,0
+MCV2,ROK,narok,2013,0
+MCV2,ROK,narok,2026,0
+MCV2,ROK,narok,2017,0
+MCV2,ROK,narok,2015,0
+MCV2,ROK,narok,2027,0
+MCV2,ROK,narok,2014,0
+MCV2,ROK,narok,2025,0
+MCV2,ROK,narok,2029,0
+MCV2,ROK,narok,2028,0
+MCV2,ROK,narok,2022,0
+MCV2,ROK,narok,2018,0
+MCV2,ROK,narok,2019,0
+MCV2,ROK,narok,2020,0
+MCV2,ROK,narok,2021,0
+MCV2,NYA,nyamira,2013,0
+MCV2,NYA,nyamira,2030,0
+MCV2,NYA,nyamira,2014,0
+MCV2,NYA,nyamira,2015,0
+MCV2,NYA,nyamira,2016,0
+MCV2,NYA,nyamira,2017,0
+MCV2,NYA,nyamira,2018,0
+MCV2,NYA,nyamira,2029,0
+MCV2,NYA,nyamira,2028,0
+MCV2,NYA,nyamira,2019,0
+MCV2,NYA,nyamira,2026,0
+MCV2,NYA,nyamira,2021,0
+MCV2,NYA,nyamira,2025,0
+MCV2,NYA,nyamira,2023,0
+MCV2,NYA,nyamira,2020,0
+MCV2,NYA,nyamira,2024,0
+MCV2,NYA,nyamira,2022,0
+MCV2,NYA,nyamira,2027,0
+MCV2,NDR,nyandarua,2015,0
+MCV2,NDR,nyandarua,2019,0
+MCV2,NDR,nyandarua,2017,0
+MCV2,NDR,nyandarua,2018,0
+MCV2,NDR,nyandarua,2013,0
+MCV2,NDR,nyandarua,2030,0
+MCV2,NDR,nyandarua,2016,0
+MCV2,NDR,nyandarua,2026,0
+MCV2,NDR,nyandarua,2022,0
+MCV2,NDR,nyandarua,2020,0
+MCV2,NDR,nyandarua,2027,0
+MCV2,NDR,nyandarua,2021,0
+MCV2,NDR,nyandarua,2028,0
+MCV2,NDR,nyandarua,2014,0
+MCV2,NDR,nyandarua,2024,0
+MCV2,NDR,nyandarua,2023,0
+MCV2,NDR,nyandarua,2029,0
+MCV2,NDR,nyandarua,2025,0
+MCV2,YRI,nyeri,2021,0
+MCV2,YRI,nyeri,2020,0
+MCV2,YRI,nyeri,2016,0
+MCV2,YRI,nyeri,2015,0
+MCV2,YRI,nyeri,2030,0
+MCV2,YRI,nyeri,2022,0
+MCV2,YRI,nyeri,2027,0
+MCV2,YRI,nyeri,2023,0
+MCV2,YRI,nyeri,2026,0
+MCV2,YRI,nyeri,2014,0
+MCV2,YRI,nyeri,2013,0
+MCV2,YRI,nyeri,2019,0
+MCV2,YRI,nyeri,2024,0
+MCV2,YRI,nyeri,2028,0
+MCV2,YRI,nyeri,2018,0
+MCV2,YRI,nyeri,2029,0
+MCV2,YRI,nyeri,2017,0
+MCV2,YRI,nyeri,2025,0
+MCV2,SMB,samburu,2030,0
+MCV2,SMB,samburu,2026,0
+MCV2,SMB,samburu,2016,0
+MCV2,SMB,samburu,2023,0
+MCV2,SMB,samburu,2018,0
+MCV2,SMB,samburu,2015,0
+MCV2,SMB,samburu,2027,0
+MCV2,SMB,samburu,2017,0
+MCV2,SMB,samburu,2021,0
+MCV2,SMB,samburu,2024,0
+MCV2,SMB,samburu,2025,0
+MCV2,SMB,samburu,2022,0
+MCV2,SMB,samburu,2028,0
+MCV2,SMB,samburu,2019,0
+MCV2,SMB,samburu,2020,0
+MCV2,SMB,samburu,2029,0
+MCV2,SMB,samburu,2014,0
+MCV2,SMB,samburu,2013,0
+MCV2,SIA,siaya,2013,0
+MCV2,SIA,siaya,2014,0
+MCV2,SIA,siaya,2020,0
+MCV2,SIA,siaya,2021,0
+MCV2,SIA,siaya,2028,0
+MCV2,SIA,siaya,2019,0
+MCV2,SIA,siaya,2029,0
+MCV2,SIA,siaya,2030,0
+MCV2,SIA,siaya,2015,0
+MCV2,SIA,siaya,2026,0
+MCV2,SIA,siaya,2016,0
+MCV2,SIA,siaya,2027,0
+MCV2,SIA,siaya,2018,0
+MCV2,SIA,siaya,2024,0
+MCV2,SIA,siaya,2023,0
+MCV2,SIA,siaya,2025,0
+MCV2,SIA,siaya,2022,0
+MCV2,SIA,siaya,2017,0
+MCV2,TTA,taita taveta,2030,0
+MCV2,TTA,taita taveta,2016,0
+MCV2,TTA,taita taveta,2023,0
+MCV2,TTA,taita taveta,2028,0
+MCV2,TTA,taita taveta,2015,0
+MCV2,TTA,taita taveta,2026,0
+MCV2,TTA,taita taveta,2022,0
+MCV2,TTA,taita taveta,2027,0
+MCV2,TTA,taita taveta,2029,0
+MCV2,TTA,taita taveta,2014,0
+MCV2,TTA,taita taveta,2018,0
+MCV2,TTA,taita taveta,2025,0
+MCV2,TTA,taita taveta,2024,0
+MCV2,TTA,taita taveta,2013,0
+MCV2,TTA,taita taveta,2019,0
+MCV2,TTA,taita taveta,2021,0
+MCV2,TTA,taita taveta,2017,0
+MCV2,TTA,taita taveta,2020,0
+MCV2,TRI,tana river,2024,0
+MCV2,TRI,tana river,2013,0
+MCV2,TRI,tana river,2020,0
+MCV2,TRI,tana river,2027,0
+MCV2,TRI,tana river,2019,0
+MCV2,TRI,tana river,2028,0
+MCV2,TRI,tana river,2030,0
+MCV2,TRI,tana river,2025,0
+MCV2,TRI,tana river,2016,0
+MCV2,TRI,tana river,2017,0
+MCV2,TRI,tana river,2014,0
+MCV2,TRI,tana river,2015,0
+MCV2,TRI,tana river,2026,0
+MCV2,TRI,tana river,2021,0
+MCV2,TRI,tana river,2018,0
+MCV2,TRI,tana river,2023,0
+MCV2,TRI,tana river,2022,0
+MCV2,TRI,tana river,2029,0
+MCV2,TNI,tharaka-nithi,2025,0
+MCV2,TNI,tharaka-nithi,2027,0
+MCV2,TNI,tharaka-nithi,2013,0
+MCV2,TNI,tharaka-nithi,2014,0
+MCV2,TNI,tharaka-nithi,2015,0
+MCV2,TNI,tharaka-nithi,2028,0
+MCV2,TNI,tharaka-nithi,2016,0
+MCV2,TNI,tharaka-nithi,2017,0
+MCV2,TNI,tharaka-nithi,2018,0
+MCV2,TNI,tharaka-nithi,2019,0
+MCV2,TNI,tharaka-nithi,2020,0
+MCV2,TNI,tharaka-nithi,2030,0
+MCV2,TNI,tharaka-nithi,2026,0
+MCV2,TNI,tharaka-nithi,2023,0
+MCV2,TNI,tharaka-nithi,2024,0
+MCV2,TNI,tharaka-nithi,2029,0
+MCV2,TNI,tharaka-nithi,2021,0
+MCV2,TNI,tharaka-nithi,2022,0
+MCV2,TZI,trans nzoia,2015,0
+MCV2,TZI,trans nzoia,2013,0
+MCV2,TZI,trans nzoia,2020,0
+MCV2,TZI,trans nzoia,2016,0
+MCV2,TZI,trans nzoia,2025,0
+MCV2,TZI,trans nzoia,2014,0
+MCV2,TZI,trans nzoia,2019,0
+MCV2,TZI,trans nzoia,2021,0
+MCV2,TZI,trans nzoia,2022,0
+MCV2,TZI,trans nzoia,2023,0
+MCV2,TZI,trans nzoia,2026,0
+MCV2,TZI,trans nzoia,2029,0
+MCV2,TZI,trans nzoia,2027,0
+MCV2,TZI,trans nzoia,2024,0
+MCV2,TZI,trans nzoia,2030,0
+MCV2,TZI,trans nzoia,2028,0
+MCV2,TZI,trans nzoia,2017,0
+MCV2,TZI,trans nzoia,2018,0
+MCV2,TRK,turkana,2013,0
+MCV2,TRK,turkana,2016,0
+MCV2,TRK,turkana,2017,0
+MCV2,TRK,turkana,2023,0
+MCV2,TRK,turkana,2027,0
+MCV2,TRK,turkana,2024,0
+MCV2,TRK,turkana,2018,0
+MCV2,TRK,turkana,2029,0
+MCV2,TRK,turkana,2028,0
+MCV2,TRK,turkana,2019,0
+MCV2,TRK,turkana,2026,0
+MCV2,TRK,turkana,2025,0
+MCV2,TRK,turkana,2021,0
+MCV2,TRK,turkana,2022,0
+MCV2,TRK,turkana,2015,0
+MCV2,TRK,turkana,2030,0
+MCV2,TRK,turkana,2020,0
+MCV2,TRK,turkana,2014,0
+MCV2,UAG,uasin gishu,2014,0
+MCV2,UAG,uasin gishu,2020,0
+MCV2,UAG,uasin gishu,2013,0
+MCV2,UAG,uasin gishu,2027,0
+MCV2,UAG,uasin gishu,2023,0
+MCV2,UAG,uasin gishu,2021,0
+MCV2,UAG,uasin gishu,2022,0
+MCV2,UAG,uasin gishu,2030,0
+MCV2,UAG,uasin gishu,2029,0
+MCV2,UAG,uasin gishu,2015,0
+MCV2,UAG,uasin gishu,2024,0
+MCV2,UAG,uasin gishu,2018,0
+MCV2,UAG,uasin gishu,2026,0
+MCV2,UAG,uasin gishu,2019,0
+MCV2,UAG,uasin gishu,2025,0
+MCV2,UAG,uasin gishu,2028,0
+MCV2,UAG,uasin gishu,2017,0
+MCV2,UAG,uasin gishu,2016,0
+MCV2,VGA,vihiga,2018,0
+MCV2,VGA,vihiga,2024,0
+MCV2,VGA,vihiga,2027,0
+MCV2,VGA,vihiga,2016,0
+MCV2,VGA,vihiga,2030,0
+MCV2,VGA,vihiga,2029,0
+MCV2,VGA,vihiga,2023,0
+MCV2,VGA,vihiga,2017,0
+MCV2,VGA,vihiga,2015,0
+MCV2,VGA,vihiga,2025,0
+MCV2,VGA,vihiga,2013,0
+MCV2,VGA,vihiga,2026,0
+MCV2,VGA,vihiga,2019,0
+MCV2,VGA,vihiga,2028,0
+MCV2,VGA,vihiga,2014,0
+MCV2,VGA,vihiga,2020,0
+MCV2,VGA,vihiga,2022,0
+MCV2,VGA,vihiga,2021,0
+MCV2,WJR,wajir,2021,0
+MCV2,WJR,wajir,2020,0
+MCV2,WJR,wajir,2029,0
+MCV2,WJR,wajir,2014,0
+MCV2,WJR,wajir,2030,0
+MCV2,WJR,wajir,2027,0
+MCV2,WJR,wajir,2013,0
+MCV2,WJR,wajir,2024,0
+MCV2,WJR,wajir,2025,0
+MCV2,WJR,wajir,2015,0
+MCV2,WJR,wajir,2016,0
+MCV2,WJR,wajir,2017,0
+MCV2,WJR,wajir,2018,0
+MCV2,WJR,wajir,2019,0
+MCV2,WJR,wajir,2028,0
+MCV2,WJR,wajir,2026,0
+MCV2,WJR,wajir,2022,0
+MCV2,WJR,wajir,2023,0
+MCV2,WPO,west pokot,2027,0
+MCV2,WPO,west pokot,2016,0
+MCV2,WPO,west pokot,2024,0
+MCV2,WPO,west pokot,2023,0
+MCV2,WPO,west pokot,2025,0
+MCV2,WPO,west pokot,2018,0
+MCV2,WPO,west pokot,2019,0
+MCV2,WPO,west pokot,2026,0
+MCV2,WPO,west pokot,2017,0
+MCV2,WPO,west pokot,2022,0
+MCV2,WPO,west pokot,2029,0
+MCV2,WPO,west pokot,2020,0
+MCV2,WPO,west pokot,2021,0
+MCV2,WPO,west pokot,2013,0
+MCV2,WPO,west pokot,2014,0
+MCV2,WPO,west pokot,2015,0
+MCV2,WPO,west pokot,2028,0
+MCV2,WPO,west pokot,2030,0

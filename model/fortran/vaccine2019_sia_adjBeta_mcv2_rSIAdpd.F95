@@ -70,22 +70,22 @@ contains
 		!	  tempreach = real(1, dp)
 		! endif
 		! --------------------------------------------------------------------------
-		
+
 		! --------------------------------------------------------------------------
 		! find what the SIA reach should be from the weighted logistic regression
 		! tempreach = exp(a + b * m1cov) / (1 + exp(a + b * m1cov))
 		tempreach = exp(a + b * scov) / (1 + exp(a + b * scov))
 		! --------------------------------------------------------------------------
-		
+
 		doses = scov*sum(pop(agefrom:ageto))
-		
+
 		! --------------------------------------------------------------------------
     zero_dose_children = sum(susceptibles(agefrom:ageto)) &
                         + sum(unvacI(agefrom:ageto)) &
                         + sum(unvacR(agefrom:ageto))
-                        
+
     zeroreach = tempreach * zero_dose_children
-		
+
 		if( doses .le. zeroreach ) then
 		  sia1 = doses / zero_dose_children
 		  sia2 = real(0, dp)
@@ -99,22 +99,22 @@ contains
 		    sia2 = real(1, dp)
 		  endif
 		endif
-		
+
 		if( sia1 .gt. 1) then
 		  sia1 = 1
 		endif
-		
+
 		if( sia2 .gt. 1) then
 		  sia2 = 1
 		endif
-    ! --------------------------------------------------------------------------   
-    
-    
+    ! --------------------------------------------------------------------------
+
+
     ! --------------------------------------------------------------------------
     ! zeroreach = tempreach*(sum(susceptibles(agefrom:ageto)) &
 		!   				+ sum(unvacI(agefrom:ageto)) &
 		!					+ sum(unvacR(agefrom:ageto)))
-							
+
 		! if( doses .le. zeroreach ) then
 		!   sia1 = scov
 		!	  sia2 = 0
@@ -131,9 +131,9 @@ contains
     ! zero_dose_children = sum(susceptibles(agefrom:ageto)) &
     !                    + sum(unvacI(agefrom:ageto)) &
     !                    + sum(unvacR(agefrom:ageto))
-    
+
     ! non_zero_dose_children = sum(pop(agefrom:ageto)) - zero_dose_children
-    
+
     ! if ((doses * tempreach) .le. zero_dose_children) then
     !   sia1 = (doses * tempreach) / zero_dose_children
     !   sia2 = (doses * (1 - tempreach)) / non_zero_dose_children
@@ -356,7 +356,7 @@ program measles
 	read(get_debug_relative,*) debug_relative
 
 	tmax = uu*tstep
-	
+
 	! ----------------------------------------------------------------------------
 	uu = uu + 1
 
@@ -366,7 +366,7 @@ program measles
 	! allocate(sia(uu))
 	! allocate(a0(uu))
 	! allocate(a1(uu))
-	
+
 	! memory allocation should be large enough to handle multiple SIAs over multiple years
 	allocate(coverage(uu*3))
 	allocate(t_sia(uu*3))
@@ -375,7 +375,7 @@ program measles
 	allocate(a0(uu*3))
 	allocate(a1(uu*3))
 	! ----------------------------------------------------------------------------
-	
+
 	allocate(M(amax+1,tmax+1))
 	allocate(S(amax+1,tmax+1))
 	allocate(I(amax+1,tmax+1))
@@ -418,8 +418,8 @@ program measles
 	!ve_b = real(0.01485,dp)
 
   ! ----------------------------------------------------------------------------
-	! SIA reach regression parameters for function SIAcov 
-  ! From Allison's paper: 
+	! SIA reach regression parameters for function SIAcov
+  ! From Allison's paper:
 	!   From:
 	! SIA_a = real(1.141, dp)
 	! SIA_b = real(-0.679, dp)
@@ -427,15 +427,15 @@ program measles
 	! SIA_b = real(-0.5, dp)
   ! SIA_a = real(1.0644, dp)
   ! SIA_b = real(-0.5983, dp)
-  
+
   ! intercept and slope values from weighted logistic regression
   ! SIA_a = real(2.485921, dp)
   ! SIA_b = real(-2.074887, dp)
-  
+
   ! intercept and slope values from weighted logistic regression
   SIA_a = real(-2.621733, dp)
   SIA_b = real(5.238249, dp)
-  
+
 	!
 	!  To; (just for sensitivity analysis and error checking, reverting back to above)
 	!  I think this will make sure all the doses go to zero dose kids until there are none left.
@@ -463,9 +463,9 @@ program measles
 	V3R = real(0, dp)
 
 	!introduce 0.95 susceptible people in all agegroups at first timepoint
-	S(:,1) = real(0.95, dp)   
+	S(:,1) = real(0.95, dp)
 	!introduce 0.05 infectious people in all agegroups at first timepoint
-	I(:,1) = real(0.05, dp)  
+	I(:,1) = real(0.05, dp)
 	!R(:,1) = real(0.01, dp)            !  add to avoid zero cases
 
 	hh=2
@@ -529,11 +529,11 @@ program measles
 		100 continue
 		temp=sum(pop)
 	close(1999)
-	
+
 	!vaccine efficacy parameters for function vaceffByAge
 	ve_a = take1
 	ve_b = take2
-	
+
 	!dont need to do this in the loop anymore
 	!contact rates
 	if(psa_run.gt.0) then
@@ -549,7 +549,7 @@ program measles
 		101 continue
 		777 continue
 	close(2000)
-	
+
 	!substract t_cov from t_sia
 	t_sia=t_sia-t_cov
 	!set t_sia AFTER last timepoint where t_sia is negative (will never run, happens when SIA is disabled on LINUX)
@@ -568,7 +568,7 @@ program measles
 		tcycle=real(1, dp)+tcycle*amp
 		!cyc= tcycle*(I(:,h)+VI(:,h)+V2I(:,h)+V3I(:,h))*pop(1:amax+1)
 		cyc= tcycle*(I(:,h) + VI(:,h) + V2I(:,h) + V3I(:,h) + real(1e-9, dp)) ! add importation
-		totpop = sum(pop(1:amax+1)) ! total population size 
+		totpop = sum(pop(1:amax+1)) ! total population size
 		!loop through all age-groups
 		do 1982 a=1,amax
 			!calculate number of infected individuals
@@ -606,10 +606,10 @@ program measles
 
 			I(a,hh)		=	I(a,h)						&
 							+dI							&
-							-dR                         
+							-dR
 
 			R(a,hh)		=	R(a,h)						&
-							+dR                         
+							+dR
 
 			VS(a,hh)	=	VS(a,h)						&
 							-dVI
@@ -1023,7 +1023,7 @@ program measles
 					read(counter+1000,*)pop(k)
 				1000 continue
 			close(counter+1000)
-			
+
 			!read contact-data
 			if(psa_run.gt.0) then
 				write(filename,'(A2,A1,A2,A1,A7,A1,A10,A1,A20,A1,A5,A1,A3,I3.3,A1,A3,A1,I3.3,A8)') '..',sep,'..',sep,'outcome',sep,get_scenarioname,sep,get_foldername,sep,'input',sep,'run',psa_run,sep,get_country_iso3,'_',counter,'beta.txt'
@@ -1036,7 +1036,7 @@ program measles
 				1111 continue
 				787 continue
 			close(counter)
-			
+
 			!substract t_cov from t_sia
 			t_sia=t_sia-t_cov
 			!set t_sia AFTER last timepoint where t_sia is negative (will never run, happens when SIA is disabled on LINUX)
@@ -1087,10 +1087,10 @@ program measles
 
 				I(a,hh)		=	I(a,t)			&
 								+dI				&
-								-dR             
+								-dR
 
 				R(a,hh)		=	R(a,t)			&
-								+dR             
+								+dR
 
 				VS(a,hh)	=	VS(a,t)			&
 								-dVI
@@ -1260,7 +1260,7 @@ program measles
 			!old: those that are 104weeks (exactly 2yo)
 			!a=104
 			!update: those that are 72 weeks (15-18 months)
-			a=72			
+			a=72
 			!calculate new vaccinations
 			!M(a,hh)		=M(a,hh)	-M(a,hh)*52/real(tstep) 	+M(a-1,hh)*52/real(tstep)
 			!S(a,hh)		=S(a,hh)	-S(a,hh)*52/real(tstep)		+(1-cov2)*(1-cov(a-1))*S(a-1,hh)*52/real(tstep)
@@ -1306,7 +1306,7 @@ program measles
 			vac_numerator = MCV1_eff(a,hh)
 			vac_denominator = (VS(a,hh) + VI(a,hh) + VR(a,hh))
 			if(vac_denominator.gt.real(0, dp)) then
-			    p_eff = vac_numerator/vac_denominator				
+			    p_eff = vac_numerator/vac_denominator
 				if (p_eff > take3) then
 				    take_inc = real(0, dp)
 				else
@@ -1583,7 +1583,7 @@ program measles
 						vac_numerator = MCV1_eff(a,hh)
 						vac_denominator = (VS(a,hh) + VI(a,hh) + VR(a,hh))
 						if(vac_denominator.gt.real(0, dp)) then
-			                p_eff = vac_numerator/vac_denominator				
+			                p_eff = vac_numerator/vac_denominator
 				            if (p_eff > take3) then
 							    take_inc = real(0, dp)
 							else
@@ -1597,7 +1597,7 @@ program measles
 						!else
 						!	take_inc = (take3 - real(0, dp))/(real(1, dp) - real(0, dp))
 						!endif
-						
+
 						dVS_V2S		=	VS(a,hh)*(real(1, dp)-take_inc)*sia2
 						dVS_V2R		=	VS(a,hh)*take_inc*sia2
 						dVI_V2I		=	VI(a,hh)*sia2
@@ -1817,7 +1817,7 @@ program measles
 			endif
 		endif
 		do 9950 t=1, int(t_cov/t_scale), t_increment
-			tstart = t 
+			tstart = t
 			if( debug_timepoints == 0 ) then
 				tend = tstart + (tstep-1)  !tstart+tstep
 			else
